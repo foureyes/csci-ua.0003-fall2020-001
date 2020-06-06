@@ -1,0 +1,1190 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Midterm #2 Practice Questions</title>
+
+    <!-- Bootstrap core CSS -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<style>
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+#expressions {
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  line-height: 1.5em;
+}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+.navbar-fixed-top {
+  border: 0;
+}
+
+/*
+ * Sidebar
+ */
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+
+
+
+/* image container */
+
+.imagecontainer {
+	display: block;
+	width: 400px;
+	border: 1px solid grey;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.imagecontainer p {
+	text-align: center;
+	font-style: italic;
+}
+
+.imagecontainer img {
+	width: 380px;
+}
+
+.col-md-offset-2 {
+	margin-left:0px !important;
+}
+
+.col-md-offset-3 {
+	margin-left:0px !important;
+}
+
+.hidden {
+	display: none;
+}
+
+#topics {
+	margin-top: 1em;
+}
+
+</style>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <style id="holderjs-style" type="text/css"></style></head>
+
+  <body>
+
+    
+<!-- START-------------->
+<!-- START-------------->
+<!-- START-------------->
+
+    <div class="container-fluid">
+      <div class="row">
+        
+        
+        <div id="content" class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+					<h1 class="page-header">Final Exam Practice Questions and Solutions</h1>
+					
+<p>The solutions to the programming problems are available at the end of this page.</p>
+
+<h2>Topics Covered</h2>
+<button id="topicsButton">Show/Hide Topics</button>
+<div id="topics" class="hidden">
+<ol>
+<li>Programming Mechanics
+<ol>
+<li>Functions (what are they, using them, arguments, return values, etc)</li>
+<li>Variables (what are they, creating them, using them, naming rules, etc)</li>
+<li>Reading input from the keyboard with the input() function</li>
+</ol>
+</li>
+<li>Math Expressions
+<ol>
+<li>Writing math expressions</li>
+<li>Evaluating math expressions</li>
+<li>Storing &amp; printing the results of math expressions</li>
+</ol>
+</li>
+<li>Data Types
+<ol>
+<li>Strings</li>
+<li>Numeric data types
+<ol>
+<li>Integers (int)</li>
+<li>Floating point numbers (float)</li>
+</ol>
+</li>
+<li>The Boolean data type</li>
+<li>The List data type</li>
+<li>Mixed type expressions</li>
+<li>Type conversion (string to int, int to strings, etc)</li>
+</ol>
+</li>
+<li>Basic String Manipulation
+<ol>
+<li>Combining two strings (concatenation)</li>
+<li>Multiplying a string (x = 'hi' * 5)</li>
+<li>Case manipulation (x = str.lower('CRAIG') # converts the string literal 'CRAIG' to 'craig')</li>
+<li>Calculating string length using the len() function</li>
+</ol>
+</li>
+<li>Selection Statements
+<ol>
+<li>The structure of an IF statement (IF keyword, condition, colon, indentation)</li>
+<li>Writing a condition for an IF statement</li>
+<li>Boolean operators (&lt;, &gt;, ==, !=, &gt;=, &lt;=)</li>
+<li>Comparing numeric values using Boolean expressions</li>
+<li>Comparing string values using Boolean expressions</li>
+<li>Using the IF-ELSE statement</li>
+<li>Nesting decision structures (IF statements inside other IF statements)</li>
+<li>The IF-ELIF-ELSE statement</li>
+<li>Logical operators (and, or, not)</li>
+</ol>
+</li>
+<li>Generating random numbers using the random.randint() function</li>
+<li>Condition Controlled Loops (while loops)
+<ol>
+<li>mechanics &amp; how they work</li>
+<li>setting up conditions for a while loop</li>
+<li>infinite loops and how to avoid them</li>
+<li>sentinels (defining a value that the user enters that causes the loop to end)</li>
+<li>input validation loops (asking the user to continually enter a value until that value matches some condition)</li>
+</ol>
+</li>
+<li>Accumulator variables
+<ol>
+<li>setting up and using accumulator variables</li>
+<li>self referential assignment statements (i.e. counter = counter + 1)</li>
+<li>augmented assignment operators (i.e. counter += 1)</li>
+</ol>
+</li>
+<li>Count Controlled Loops (for loops)
+<ol>
+<li>mechanics and how they work</li>
+<li>iterating over a list (i.e. for x in [1,2,3,4,5]:)</li>
+<li>using the target variable in a for loop</li>
+<li>nested loops (i.e. loops inside of other loops)</li>
+</ol>
+</li>
+<li>Functions
+<ol>
+<li>mechanics and how functions work</li>
+<li>the “black box” model</li>
+<li>function definitions</li>
+<li>arguments</li>
+<li>return values</li>
+<li>calling a function</li>
+<li>local variables (variables that are defined inside a function and can only be accessed inside that function)</li>
+<li>passing arguments to your own functions</li>
+<li>writing a value returning function (i.e. using the 'return' keyword to send a result from your function to the part of your program that called that function)</li>
+<li>Input, Processing &amp; Output notation</li>
+</ol>
+</li>
+<li>Modules
+<ol>
+<li>Creating a module</li>
+<li>Defining functions in a module</li>
+<li>Calling functions in a module</li>
+</ol>
+</li>
+<li>Exceptions
+<ol>
+<li>Preventing exceptions using selection statements (i.e. using an “if” statement to prevent an error from occuring)</li>
+<li>Using the try / except / else suite to test problematic code for an error and “catch” it before it has a chance to crash your program.</li>
+</ol>
+</li>
+<li>Lists
+<ol>
+<li>Simple Variables vs. Lists (simple variables can only hold one piece of data, but lists can hold multiple values) – you can think of a list like a “book” and a variable like a “sheet of paper”</li>
+<li>Defining lists in Python (i.e. mylist = [1,2,3])</li>
+<li>Concatenating lists with the “+” operator</li>
+<li>Repeating lists with the “*” operator</li>
+<li>Referencing list items using index notation (i.e. mylist[0])</li>
+<li>Iterating through a list using a “while” loop</li>
+<li>Iterating through a list using a “for” loop</li>
+<li>Using the len() function to determine the # of items in a list</li>
+<li>Updating the value of an item in a list using bracket notation</li>
+<li>Creating empty lists</li>
+<li>Finding an item in a list using the “in” operator</li>
+<li>Adding items to a list using the append method</li>
+<li>Sorting items in a list using the sort method</li>
+<li>Reversing items in a list using the reverse method</li>
+<li>Finding the position of an item in a list using the index method</li>
+<li>Inserting an item in a list at a specific index using the insert method</li>
+<li>Finding the largest and smallest values in a list using the min and max methods</li>
+<li>Totaling the values of all elements in a list using an accumulator variable</li>
+<li>Removing an item from a list using the remove method</li>
+<li>Storing lists in files</li>
+<li>Reading lists from files using the readlines method</li>
+</ol>
+</li>
+<li>Strings Manipulation
+<ol>
+<li>Iterating through all characters in a string using a for loop</li>
+<li>Indexing a specific character in a string using bracket notation</li>
+<li>Iterating through all characters in a string using a while loop</li>
+<li>String immutability (you can't change a string using bracket notation like you would change a list element)</li>
+<li>Testing a string for substrings using the “in” operator</li>
+<li>Detecting character types in a string using the built-in string testing methods (isdigit, isalpha, isalnum, islower, isupper, isspace)</li>
+<li>Splitting a string into a list using the “split” method</li>
+</ol>
+</li>
+<li>File Input &amp; Output
+<ol>
+<li>Opening a file for writing</li>
+<li>Opening a file for reading</li>
+<li>Writing data to a file</li>
+<li>Delimiters (separating data in a file)</li>
+<li>Reading data from a file using the read() method</li>
+<li>Reading data from a file into a list</li>
+<li>Processing data stored in a file</li>
+</ol>
+</li>
+<li>Dictionaries
+<ol>
+<li>What is a Dictionary?</li>
+<li>Basic usage of Dictionaries</li>
+<li>Differences between Lists and Dictionaries</li>
+<li>Knowing when to use which data type (lists for numerically indexed data, dictionaries for string-indexed data)</li>
+</ol>
+</li>
+</ol>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+	var btn = document.getElementById('topicsButton');
+	btn.addEventListener('click', function(evt) {
+		document.getElementById('topics').classList.toggle('hidden');
+		evt.preventDefault();
+	});
+});
+</script>
+<h2>Sample Problems</h2>
+<p>Evaluate the following expressions. Note the data type that gets generated by each expression as well.  You can check the solutions to these problems by copying and pasting them into IDLE to see how Python reacts.</p>
+<table id="expressions">
+<tbody>
+<tr>
+<td><strong>Expression</strong></td>
+</tr>
+<tr>
+<td>'a' + 'b'</td>
+</tr>
+<tr>
+<td>'a' * 5</td>
+</tr>
+<tr>
+<td>5 * 'a' + 5 * 'b'</td>
+</tr>
+<tr>
+<td>[1] + [2]</td>
+</tr>
+<tr>
+<td>['a', 'b'] + ['c', 'd']</td>
+</tr>
+<tr>
+<td>[2] * 4 + [4] * 2</td>
+</tr>
+<tr>
+<td>[1,2,3] + 3 * [4]</td>
+</tr>
+<tr>
+<td>99 % 3</td>
+</tr>
+<tr>
+<td>5 + (10 % 3)</td>
+</tr>
+<tr>
+<td>100 &gt; 5</td>
+</tr>
+<tr>
+<td>100 &gt; 5 and 100 &lt; 99</td>
+</tr>
+<tr>
+<td>1 &gt; 2 or 2 &gt; 1</td>
+</tr>
+<tr>
+<td>not (1 &gt; 2) and not (3 &lt; 3)</td>
+</tr>
+<tr>
+<td>(True or False) and (False and True)</td>
+</tr>
+<tr>
+<td>x = 'giraffe'<br>
+x[2] # evaluate the result of this line of code</td>
+</tr>
+<tr>
+<td>x = 'G+I+R+A+F+F+E'<br>
+x.split(“+”) # evaluate the result of this line of code</td>
+</tr>
+<tr>
+<td>'cat' + 'dog'</td>
+</tr>
+<tr>
+<td>'cat' &gt; 'dog'</td>
+</tr>
+<tr>
+<td>(99 * 2) &lt; 200 or (100 &gt; 50 * 2)</td>
+</tr>
+<tr>
+<td>True or False or False or True</td>
+</tr>
+</tbody>
+</table>
+<h2>Trace the Output</h2>
+<p><em>What is the output of each program (each shaded box below is a separate Python program)?</em></p>
+<pre>count = 0
+
+while count &lt; 10:
+    print ('Hello')
+    count += 1</pre>
+<pre>x = 10
+y = 0
+
+while x &gt; y:
+    print (x, y)
+    x = x - 1
+    y = y + 1</pre>
+<pre>keepgoing = True
+x = 100
+
+while keepgoing:
+    print (x)
+    x = x - 10
+    if x &lt; 50:
+        keepgoing = False</pre>
+<pre>x = 45
+
+while x &lt; 50:
+    print (x)</pre>
+<pre>for x in [1,2,3,4,5]:
+    print (x)</pre>
+<pre>for p in range(1,10):
+    print (p)</pre>
+<pre>for z in range(-500,500,100):
+    print (z)</pre>
+<pre>x = 10
+y = 5
+
+for i in range(x-y*2):
+    print ("%", i)</pre>
+<pre>c = 0
+
+for x in range(10):
+    for y in range(5):
+        c += 1
+
+print (c)</pre>
+<pre>x = [1,2,3]
+
+counter = 0
+while counter &lt; len(x):
+
+    print (x[counter] * '%')
+
+    for y in x:
+        print (y * '*')
+
+    counter += 1</pre>
+<pre>for x in 'lamp':
+    print (str.upper(x))</pre>
+<pre>x = 'one'
+y = 'two'
+
+counter = 0
+while counter &lt; len(x):
+    print (x[counter], y[counter])
+    counter+=1</pre>
+<pre>x = "apple,pear,peach"
+y = x.split(",")
+
+for z in y:
+    print (z)</pre>
+<pre>x = 'apple,pear,peach,grapefruit'
+y = x.split(',')
+
+for z in y:
+    if z &lt; 'm':
+        print (str.lower(z))
+    else:
+        print (str.upper(z))</pre>
+<pre>def myfun(a):
+    print (a * '#')
+
+x = "1-2-3-4-5"
+y = x.split("-")
+
+for z in y:
+    myfun(int(z))</pre>
+<pre># Trace the output of the following program.  Then rewrite the program using a “while” 
+# loop instead of a “for” loop.  You don't need to re-write the list – just rewrite 
+# the looping portion of the program.
+
+pokemon = ["squirtle", "pikachu", "charmander",    
+           "bulbasaur", "meowth"]
+
+for i in range(0, len(pokemon), 2):
+    print (i, pokemon[i])
+
+
+# rewrite
+counter = 0
+
+while counter &lt; len(pokemon):
+    print (counter, pokemon[counter])
+    counter += 2
+</pre>
+<pre>foo = { "apple":1.99, "pear":2.99, "peach":3.99 }
+bar = [ "apple", "starfruit", "orange", "pear", "PEACH", "banana" ]
+
+for i in range(len(bar)):
+    print (i+1, bar[i], ": ", end="")
+    if bar[i] in foo:
+        print (foo[ bar[i] ])
+    else:
+        print ("?")
+</pre>
+<pre>pokemon = { "pikachu":["electricity",100], "charmander":["fire",90], "squirtle":["water",110] }
+
+for key in pokemon.keys():
+    print (key)
+    for i in range(len(pokemon[key])):
+        print ("*", pokemon[key][i])
+</pre>
+<pre># Given the data file below (datafile.txt), what will be stored in the file at the 
+# end of this program?  Note that every line has a line break at the end of it.
+# 
+# You can create this file by opening up a text editor on your computer (TextEdit on a
+# Mac or Notepad on a PC) and creating a file called "datafile1.txt" in the same
+# folder as your Python program if you want to test this out.
+# Alternately, see the program after this one - it will create the necessary file for
+# you using Python
+
+datafile1.txt
+apple
+pear
+peach
+grapefruit
+
+________________________________________
+file_object = open("datafile1.txt")
+data = file_object.read()
+file_object.close()
+
+file_object2 = open("datafile1.txt", "a")
+data = data.split("\n")
+
+c = 0
+for item in data:
+    if c &gt; 0:
+        file_object2.write("," + item)
+    else:
+        file_object2.write(item)
+    c += 1
+    
+file_object2.write("\n")
+file_object2.close()
+</pre>
+<pre># this program can be used to create 'datafile1.txt' for the previous
+# trace the output question
+fo = open("datafile1.txt", "w")
+fo.write("apple\n")
+fo.write("pear\n")
+fo.write("peach\n")
+fo.write("grapefruit\n")
+fo.close()
+</pre>
+<pre>votes = {
+          "NJ":[1478749,2126610,45774],
+          "NM":[35788,415335,32634],
+          "NY":[2490496,4485877,105163]
+        }
+
+r = 0
+d = 0
+o = 0
+
+for key in votes.keys():
+    r += votes[key][0]
+    d += votes[key][1]
+    o += votes[key][2]
+
+print ("Republican:", r)
+print ("Democrat:", d)
+print ("Other:", o)
+</pre>
+<h2>Programming Challenges</h2>
+<ol>
+<li>Write a program that prompts the user to enter in 5 colors. Print out the colors entered in alphabetical orders. Then print out the colors entered in reverse alphabetical order.</li>
+<li>Write a program that prompts the user to enter in an unlimited number of colors. Test to make sure that the user did not already enter a color before storing it (i.e. “We're sorry, but you've already added the color 'yellow'”). When the user types the string “exit” you should stop collecting colors. The print out the colors entered in alphabetical order.</li>
+<li>Rewrite the following program using a “for” loop:
+<pre>x = [1,2,3,4,5]
+
+counter = 0
+while counter &lt; len(x):
+    print (x[counter])
+    counter += 1</pre>
+</li>
+<li>Rewrite the following program using a “while” loop:
+<pre>x = ['a','b','c','d']
+
+for y in x:
+    print (y)</pre>
+</li>
+<li>Rewrite the following program using a “while” loop:
+<pre>x = 'python'
+
+for y in x:
+    print (y)</pre>
+</li>
+<li>Write a program that lets a user enter in 5 price values. Ensure that the prices entered are greater than 0 (but you can assume they will be numeric and not alphanumeric). Once you have collected all the prices you should print out the following:
+<ol>
+<li>The average price</li>
+<li>The highest price</li>
+<li>The lowest price</li>
+<li>If the user spent more than 100, you can give them the lowest priced item for free. In this case you should congratulate them, print out their total bill and average price without the lowest priced item factored in.</li>
+</ol>
+</li>
+<li>Write a function that accepts a single string as an argument. Your function should then determine if the string contains all uppercase characters. If so, return True, and if not return False.</li>
+<li>Write a function that accepts a single string as an argument. Convert the string to all lowercase and return the new string.</li>
+<li>Write a program that continually prompts the user to enter in a number. Evaluate whether the value entered is a valid number (float or int). If it is, print out the number. If it isn't, ask the user to try again.  Your program should not crash if the user enters an invalid number (i.e. “twenty” is invalid since it does not contain all numeric digits)</li>
+<li>Write a function that generates a random letter from the string 'BINGO'. Here is a sample running of this program:
+<pre>x = generate_bingo_letter()
+print (x)
+
+&gt;&gt; N
+
+x = generate_bingo_letter()
+print (x)
+
+&gt;&gt; O</pre>
+</li>
+<li>Take your “bingo” function and write a program that continually generates 5 random letters from the string 'BINGO' and print them out along with the attempt number. If all 5 letters spell the word “BINGO” you can end the program and print out a congratulatory message. Here's a sample running of the program:
+<pre>0 GBOBI
+1 OOOIG
+2 NIIIN
+3 BIGNN
+4 OGOIN
+5 BNOGB
+
+.......
+
+3856 BGIIO
+3857 NBONN
+3858 IBNGI
+3859 GNOBN
+3860 BINGO
+Finally, after 3860 tries!</pre>
+</li>
+<li>You have been asked to write a “slot machine” program which should randomly arrange three graphical symbols on the screen.  All possible symbols are defined in the following list:
+<pre>symbols = ['cherry', 'pear', 'star', 'seven', 'watermelon']</pre>
+<p>Write a program that randomly selects three of these symbols and prints them out to the user.  You cannot repeat a symbol (i.e. you cannot select 'cherry' twice).  Here's  are a few sample runnings of the program:</p>
+<pre>&gt;&gt; cherry star seven
+
+&gt;&gt; seven watermelon star
+
+&gt;&gt; pear star cherry</pre>
+</li>
+<li>Write a program that generates a random series of lottery numbers for the user.  Your program should generate 5 unique random numbers between 1 and 100.  Numbers should not be repeated within a series and should be printed in ascending order.  Here are three sample runnings of the program:
+<pre>Your lottery #'s are:
+[19, 61, 62, 78, 99]
+&gt;&gt;&gt; ================================ RESTART 
+
+Your lottery #'s are:
+[1, 41, 64, 66, 78]
+&gt;&gt;&gt; ================================ RESTART 
+
+Your lottery #'s are:
+[19, 20, 28, 41, 97]</pre>
+</li>
+<li>Body Mass Index (BMI) is a measurement that is used to classify the weight of an individual as underweight, normal weight, overweight or obese.  The formula for calculating BMI is as follows:<em>BMI = (Weight in pounds * 703) / (height in inches)<sup>2</sup></em>.  BMI values can be interpreted as follows:
+<ul>
+<li>Below 18.5 – underweight</li>
+<li>18.5 – 24.9 – normal</li>
+<li>25 – 29.9 – overweight</li>
+<li>30+ – obese</li>
+</ul>
+<p>&nbsp;</p>
+<p>Write a <strong>function</strong> called “calc_bmi” that accepts two arguments – a weight value in pounds (float) and a height value in inches (float).  You can assume the arguments supplied are valid floats.  Using these arguments calculate BMI using the formula above, and <strong>return </strong> a the BMI (float) and a description (string).  Use IPO notation to document your function.</p></li>
+<li>Write a program that asks the user for their weight in pounds (one value) and their height in feet and inches (two values).  You cannot assume anything about these values, so validate the input as necessary.  Next, use the function you wrote for question #14 to calculate the user's BMI and print it out for them as follows.  Your program does not need to repeat.  Note that 12 inches = 1 foot. (10 points)
+<pre>Enter weight in pounds:  none of your business
+Sorry, that's not a valid weight.  Try again
+Enter weight in pounds:  150
+Enter height in feet: 6
+Enter height in inches:  none
+Sorry, that's not a valid height.  Try again.
+Enter a height in inches:  0
+
+A 6'0 person weighting 150lbs has a BMI of 20.3414352.  This is considered normal weight.
+</pre>
+</li>
+<li>Write a function that rolls a 10 sided die. Your function should take no arguments and should return the result of the die roll.  Then write a program that lets the user enter two integers (validate the values – the user could enter any data type here). Next, continually uses your function to roll two dice until both die roll the numbers that the user entered at the same time.  Note that the numbers may appear in any order (i.e. if the user enters 6 and 5 a valid end state of your program would be the rolls (6,5) or (5,6).  Keep track of how many rolls it took to reach this state. Here is a sample running of this program:
+<pre>Enter a number between 1 and 10:  6
+Enter a number between 1 and 10:  5
+
+1. 5 and 1
+2. 6 and 3
+3. 3 and 10
+4. 5 and 6
+Your numbers were found on roll # 4
+</pre>
+</li>
+<li>Write a function called “line” that accepts a string as an argument. Your function should generate a string pattern based on the argument provided. Here are the rules:
+<ul>
+<li>If the string provided is a number, and that number is even, generate a pattern of hash signs that matches the number provided. For example, calling line(“4”) will generate the following:
+<pre>####
+</pre>
+<p>and calling line(“10”) will generate the following:</p>
+<pre>##########
+</pre>
+</li>
+<li>If the string provided is a number, and that number is odd, generate a pattern of stars using the number provided. For example, calling line(“3”) will generate the following:
+<pre>***
+</pre>
+<p>and calling line(“9”) will generate the following:</p>
+<pre>*********
+</pre>
+<p>If the string provided is not a number you can simply generate and return empty string.</p></li>
+</ul>
+<p>Once you have generated your pattern you should return the result when completed. You cannot assume anything about the supplied string, and your function should avoid raising any exceptions that will cause your program to crash. If an exception is raised you can return an empty string.</p></li>
+<li>Write a FUNCTION called “valid_n_number” that determines if a NYU Student ID is valid. For the purpose of this question a valid NYU Student ID is defined as follows:
+<ul>
+<li>exactly 9 characters long</li>
+<li>begins with the uppercase character 'N'</li>
+<li>all characters beside the beginning 'N' character must be numbers</li>
+</ul>
+<p>Your function should accept a test “N number” as an ARGUMENT (String) and RETURN a status value (Boolean). Here's a sample program that uses your function:</p>
+<pre>test1 = valid_n_number("N123")
+test2 = valid_n_number("N1234567890")
+test3 = valid_n_number("P12345678")
+test4 = valid_n_number("NXYZ!5678")
+test5 = valid_n_number("N12345678")
+
+print (test1, test2, test3, test4, test5) 
+</pre>
+<p>And here's the expected output:</p>
+<pre>False False False False True
+</pre>
+</li>
+<li>Write a program that asks the user to enter in 5 NYU Student ID numbers. Ensure that the ID numbers that the user enters are valid (use your function from question #3) and that they do not enter duplicate IDs. Let the user know if they make a mistake. When you have collected 5 IDs print them out in ascending order. Here's a sample running of this program.
+<pre>Enter a N Number: N12345678
+Enter a N Number: N123
+Invalid N Number
+Enter a N Number: P12345678
+Invalid N Number
+Enter a N Number: N12345678
+Duplicate N Number
+Enter a N Number: N00000003
+Enter a N Number: N00000001
+Enter a N Number: N00000002
+Enter a N Number: N00000000
+
+Your N-Numbers:
+
+N00000000
+N00000001
+N00000002
+N00000003
+N12345678
+</pre>
+</li>
+</ol>
+<p>&nbsp;</p>
+<h2>Programming Problems – Solutions</h2>
+<h3>Problem #1</h3>
+<pre># create an empty list
+colors = []
+
+# prompt the user for 5 colors
+counter = 0
+while counter &lt; 5:
+
+    # get a color from the user
+    color = input("Give me a color: ")
+
+    # put the color in the list
+    colors.append(color)
+
+    counter += 1
+
+# sort the list
+colors.sort()
+
+print (colors)
+
+# reverse the list
+colors.reverse()
+
+print (colors)</pre>
+<h3>Problem #2</h3>
+<pre>colors = []
+
+# ask the user for an unlimited number of colors
+keepgoing = True
+
+while keepgoing == True:
+
+    # ask the user for a color
+    color = input('Give me a color: ')
+
+    # does the user want to exit?
+    if color == 'exit':
+        keepgoing = False
+
+    elif color in colors:
+        print ("Sorry, that's already in the list.")
+
+    else:
+        colors.append(color)
+
+# sort the list
+colors.sort()
+
+print (colors)</pre>
+<h3>Problem #3</h3>
+<pre>x = [1,2,3,4,5]
+
+for y in x:
+    print (y)</pre>
+<h3>Problem #4</h3>
+<pre>x = ['a','b','c','d']
+
+counter = 0
+
+while counter &lt; len(x):
+    print (x[counter])
+    counter += 1</pre>
+<h3>Problem #5</h3>
+<pre>x = 'python'
+
+counter = 0
+
+while counter &lt; len(x):
+
+    print (x[counter])
+
+    counter += 1</pre>
+<h3>Problem #6</h3>
+<pre>prices = []
+
+# grab 5 values from the user ensuring that they are
+# all greater than 0
+keepgoing = True
+
+# counter variable
+total = 0
+
+while keepgoing == True:
+
+    # grab a price
+    price = float(input("Give me a price: "))
+
+    # is the price greater than zero?
+    if price &lt;= 0:
+         print ("Sorry, too low.")
+    else:
+         prices.append(price)
+         total += price
+
+    # see if we can get out of the loop
+    if len(prices) == 5:
+         keepgoing = False 
+
+print ("Average: ", total / 5)
+print ("Highest: ", max(prices))
+print ("Minimum: ", min(prices)) 
+
+# special deal
+if total &gt; 100:
+
+    newtotal = total - min(prices)
+
+    print ("Congrats!")
+    print ("New total: ", newtotal)
+
+    print ("New average: ", newtotal / 4)</pre>
+<h3>Problem #7</h3>
+<pre>def uppercase_test(s):
+
+    # look at each character in s and determine
+    # if it is uppercase or lowercase
+    for char in s:
+
+        if char.isupper() == False:
+            return False
+
+    return True
+
+x = uppercase_test("CRAIG")
+
+print (x)</pre>
+<h3>Problem #8</h3>
+<pre>def lowercase_converter(s):
+
+    s = str.lower(s)
+    return s</pre>
+<h3>Problem #9</h3>
+<pre>keepgoing = True
+
+while keepgoing:
+
+    # test to see if the number is truly a number
+    try:
+        num = float(input("Give me a number: "))
+
+    # if there was an error, do this:
+    except:
+        print ("Sorry, bad number!  Try again.")
+
+    else:
+        keepgoing = False
+
+print (num)</pre>
+<h3>Problems #10 &amp; #11</h3>
+<pre>import random
+
+def generate_bingo_letter():
+
+    # what is the string we are using as a source?
+    source = 'BINGO'
+
+    # generate a random integer between 0 and 4
+    num = random.randint(0,4)
+
+    # grab out the substring
+    letter = source[num]
+
+    # send it back
+    return (letter)
+
+keepgoing = True
+
+counter = 1
+
+while keepgoing == True:
+
+    # generate 5 random characters
+    c1 = generate_bingo_letter()
+    c2 = generate_bingo_letter()
+    c3 = generate_bingo_letter()
+    c4 = generate_bingo_letter()
+    c5 = generate_bingo_letter()
+
+    # build a word out of this letter
+    word = c1 + c2 + c3 + c4 + c5
+
+    # does this spell bingo?
+    if word == 'BINGO':
+        print ("got it after", counter, "tries!")
+        keepgoing = False
+    else:
+        counter += 1</pre>
+<h3>Problem #12</h3>
+<pre>import random
+
+symbols = ['cherry', 'pear', 'star', 'seven', 'watermelon']
+
+# select 3 symbols at random 
+for x in range (3):
+
+     # get a random number between 0 and the length of our list
+     i = random.randint(0, len(symbols) - 1) 
+
+     # print out the symbol at this position
+     print (symbols[i], ' ', end = '')
+
+     # remove the symbol from the list 
+     symbols.remove(symbols[i])</pre>
+<h3>Problem #13</h3>
+<pre>import random
+
+lottery = []
+
+for x in range(5):
+
+    while True:
+
+        num = random.randint(1,100)
+        if num not in lottery:
+            lottery.append(num)
+            break
+
+
+lottery.sort()
+
+print (lottery)</pre>
+<h3>Problems #14 and #15</h3>
+<pre>def calc_bmi(weight, height):
+
+    bmi = (weight*703)/(height**2)
+
+    if bmi &lt; 18.5:
+        return bmi, "Underweight"
+    elif bmi &lt; 25:
+        return bmi, "Normal weight"
+    elif bmi &lt; 30:
+        return bmi, "Overweight"
+    else:
+        return bmi, "Obese"
+
+
+
+# get weight
+while True:
+    try:
+        weight = float(input("Enter weight in pounds: "))
+    except:
+        print ("Not a valid weight, try again")
+    else:
+        if weight &lt; 0:
+            print ("Negative weight values are not allowed")
+        else:
+            break
+
+# get height in feet and inches
+while True:
+    try:
+        height_feet = int(input("Enter height in feet: "))
+        height_inches = int(input("Enter height in inches: "))
+    except:
+        print ("Not a valid height, try again")
+    else:
+        if height_feet &lt;= 0 or height_inches &lt; 0 or height_inches &gt;= 12:
+            print ("Invalid entry, try again")
+        else:
+            break
+
+# calc bmi
+bmi, description = calc_bmi(weight, height_feet*12+height_inches)
+
+print ("A", height_feet, "'", height_inches, "person weighing", weight, "lbs has a BMI of", bmi, ". This is considered", description)
+</pre>
+<h3>Problem #16</h3>
+<pre>import random
+
+def roll_10_sided_die():
+    d1 = random.randint(1,10)
+    d2 = random.randint(1,10)
+    return d1, d2
+
+while True:
+    try:
+        user_d1 = int(input("Enter a number between 1 and 10: "))
+        user_d2 = int(input("Enter a number between 1 and 10: "))
+    except:
+        print ("Invalid number, try again")
+    else:
+        if user_d1 &lt; 1 or user_d1 &gt; 10 or user_d2 &lt; 1 or user_d2 &gt; 10:
+            print ("Numbers must be between 1 and 10, try again")
+        else:
+            break
+
+counter = 0
+while True:
+
+    counter += 1
+
+    d1, d2 = roll_10_sided_die()
+
+    print (counter, ". ", d1, " and ", d2, sep="")
+
+    if (d1 == user_d1 and d2 == user_d2) or (d1 == user_d2 and d2 == user_d1):
+        print ("Your numbers were found on roll #", counter)
+        break
+</pre>
+<h3>Problem #17</h3>
+<pre>def line(x):
+
+    try:
+        if x.isdigit():
+            x = int(x)
+            if x % 2 == 0:
+                return x*"#"
+            else:
+                return x*"*"
+        else:
+            return ""
+    except:
+        return ""
+
+
+print (line("4"))
+print (line("5"))
+print (line("apple"))
+print (line(100))
+</pre>
+<h3>Problems #18</h3>
+<pre>def valid_n_number(number):
+
+    if len(number) != 9:
+        return False
+    else:
+        if number[0] != "N":
+            return False
+        else:
+            testdigits = number[1:]
+            if testdigits.isdigit():
+                return True
+            else:
+                return False
+
+
+print (valid_n_number("N123") )
+print (valid_n_number("N1234567890") )
+print (valid_n_number("P12345678") )
+print (valid_n_number("NXYZ!5678") )
+print (valid_n_number("N12345678") )
+</pre>
+<h3>Problem #19</h3>
+<pre>def valid_n_number(number):
+
+    if len(number) != 9:
+        return False
+    else:
+        if number[0] != "N":
+            return False
+        else:
+            testdigits = number[1:]
+            if testdigits.isdigit():
+                return True
+            else:
+                return False
+
+
+numbers = []
+
+while len(numbers) &lt; 5:
+
+    test = input("Enter an N#: ")
+
+    if valid_n_number(test) == False:
+        print ("Invalid N Number")
+    else:
+        if test in numbers:
+            print ("Duplicate N Number")
+        else:
+            numbers.append(test)
+
+numbers.sort()
+
+print (numbers)
+</pre>
+    
+    
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+  
+
+  
+  
+<!-- END-------------->
+<!-- END-------------->
+<!-- END-------------->
+  
+  </body></html>

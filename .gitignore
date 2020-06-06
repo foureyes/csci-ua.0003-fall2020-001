@@ -1,0 +1,14 @@
+*.swp
+_site
+node_modules
+bower_components
+.DS_Store
+.jekyll-metadata
+_includes/archive
+archive.markdown
+.~lock.schedule.csv*
+_data/.~lock.schedule.csv
+.jekyll-cache
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/*
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/*/*
+.mypy_cache

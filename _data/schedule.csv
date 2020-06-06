@@ -1,0 +1,375 @@
+draft,type,num,date,day,slides,readings,assignments,need quiz,,only lecture,notes
+,,1,28-Jan ,Tue,"Introductions, Welcome
+
+* [Introductions](slides/01/intro.html)
+* [About Programming](slides/01/about-programming.html)
+* [Hardware](slides/01/computers-storage.html)
+* [Programming Languages](slides/01/programming-languages.html)
+* [Tools](slides/01/tools.html) 
+* [Reading and Writing Programs](slides/01/reading-writing-programs.html)
+* [Programming Work Flow](slides/01/programming-workflow.html)
+
+<!--
+* [Installing Tools](slides/01/installing-tools.html)
+-->
+","* [Ch 1. A Python Q&A Session](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch01.html#a_python_qaa_session)
+* [Ch 3. How You Run Programs](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch03.html#how_you_run_programs)
+  * The Interactive Prompt","__Due Thu, Jan 30th, at 11:00am__
+
+
+
+* [Module 01 on Types, Operators, and Variables](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module01.php)
+* Quiz 01-A and Quiz 01-B in NYU Classes (under Tests and Quizzes)","* Type Annotations
+* Using PyCharm
+* Turtle
+* Project and File Locations",* PyCharm,"
+* advanced formatting (pad char, comma, sign)
+* print vs concatenation","* large gap in background/skillset
+* continually encourage to move to 101 or drop to 0002
+* maybe quiz appropriate
+* best to wait for ds students? "
+,lecture,2,30-Jan ,Thu,"Types, Operators, Variables
+
+* PyCharm \*
+  * Tools → Python Console
+  * warnings / errors
+* [Hello](slides/01/hello.html) 
+  * (see errors slides below)
+* [Values and Types](slides/01/values-and-types.html)
+  * Type Annotations \*
+  * no “smart quotes” as str delimiter \*
+* [Operations and Variables](slides/01/operations-and-variables.html)
+  * operators (\*\*,  /, //) \*
+* [User Input](slides/01/user-input.html) \*
+* [Errors](slides/02/debugging.html) \*
+* [Design, Input, Processing, and Output](slides/02/design-input-output.html)
+* [Formatting Output (Print and Format)](slides/02/formatting.html) \*
+  * fstrings
+  * padding char, align, etc.
+* [Idioms and Style](slides/02/idioms-style.html)
+* [Variables Continued](slides/02/variables.html) \*
+* Turtle
+* Workshop Attendance \*
+","* [Module #1: Python Basics](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module01.php)
+* [Ch 5. Numeric Types](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch05.html)
+  * Numeric Type Basics
+  * Numbers in Action
+* [Ch 11. Assignments, Expressions, and Prints](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch11.html#assignments_comma_expressions_comma_and)
+  * Assignment Statements – Assignment Statement Forms
+  * Print Operations – The Python 3.0 print Function ","__Due Thu, Feb 6th, at 11:00am__
+
+
+
+* [Module 02 on Booleans, Conditionals, and While Loops](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module02.php)
+* Quiz 02-A and Quiz 02-B in NYU Classes (under Tests and Quizzes)","* fstrings
+* % operator",,* fstrings,"* is using pycharm worth type annotations?
+* need to be more consistent with type annotations"
+,workshop,3,04-Feb ,Tue,"Types, Operators, Variables
+
+* Multiple Assignment
+
+Drawing
+
+* [Turtle Basics](slides/turtle/turtle.html)",Workshop,"Homework 1 __Due Monday, 2/10, at 11pm__
+
+* [stadium_seating.py](assignments/hw01/stadium_seating.py)
+* [multiply.py](assignments/hw01/multiply.py)
+* [change_puhleese.py](assignments/hw01/change_puhleese.py)
+* [your_face.py](assignments/hw01/your_face.py) 
+",,,,"* reiterate homework policy
+* annotate if used online resource"
+,lecture,4,06-Feb ,Thu,"Boolean Logic, If and While, Modules
+
+* [Conditionals](slides/02/review-conditionals.html)
+* [Boolean Logic](slides/02/boolean-logic.html)
+* [Types, Operators, Precedence](slides/02/types-operators-precedence.html)
+* [If Statements - Advanced](slides/02/if-statements-advanced.html)
+* [Built-In Modules](slides/02/modules.html)
+* [String Formatting with %](slides/02/string-formatting.html)
+* [While Loops](slides/03/while.html)
+
+","* [Module #2: Booleans, Conditionals, and While Loops](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module02.php)
+* [Ch 12. if Tests and Syntax Rules](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch12.html#if_tests_and_syntax_rules)
+* [Ch 13. while and for Loops](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch13.html#while_and_for_loops)
+  * while Loops
+  * break, continue, pass, and the Loop else","__Due Thu, Feb 13th, at 11:00am__
+
+
+
+* [Module 03 on For Loops and Debugging](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module03.php)
+* Quiz 03 in NYU Classes (under Tests and Quizzes)",,,,"* while loops AND if statements together may have been much
+* but definitely starts separating the class
+* again, wait until ds students?"
+,workshop,5,11-Feb ,Tue,"Boolean Logic, If and While, Modules",Workshop,"Homework 2 __Due Monday, 2/17, at 11pm__
+
+
+* [adventure.py](assignments/hw02/adventure.py)
+* [odds_and_evens.py](assignments/hw02/odds_and_evens.py)
+* [tip.py](assignments/hw02/tip.py)
+* [average_word.py](assignments/hw02/average_word.py)",,,,
+,lecture,6,13-Feb ,Thu,"Debugging, For Loops, Nested Loops
+
+* [Errors and Debugging](slides/02/debugging.html)
+* [For Loops](slides/03/for.html)
+* [While vs For](slides/03/vs.html)
+* [Loop Exercises](slides/03/loop-exercises.html) 
+* [Nested Loops](slides/03/nested.html)
+","* [Module #3: Debugger, for Loops](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module03.php)
+* [Ch 13. while and for Loops](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch13.html#while_and_for_loops)
+  * for Loops
+  * Loop Coding Techniques","__Due Thursday, Feb 20th, at 11:00am__
+
+
+* [Module 04 on Functions, Scope, and Modules](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module04.php)
+* Quiz 04 in NYU Classes (under Tests and Quizzes)","* debugger concepts 
+* breakpoint
+* step over",,,"* most students were actually ok
+* ...but the ones that were very far off!
+* pycharm debugger is better than idle; need to get better at figuring out modes / switching from running one file to another"
+,workshop,7,18-Feb ,Tue,"Debugging, For Loops, Nested Loops
+
+* see nested loops above
+* [Turtle review](slides/turtle/turtle-more.html)
+  * bgcolor, color, size, square",Workshop,"Homework 3 __Due Monday, 2/24, at 11pm__
+
+
+* [forwards_backwards.py](assignments/hw03/forwards_backwards.py)
+* [many_words.py](assignments/hw03/many_words.py)
+* [Starry starry night instructions](assignments/hw03/starry_starry_night.html)
+  * [starry_starry_night.py](assignments/hw03/starry_starry_night.py)
+* [pyramid.py](assignments/hw03/pyramid.py)",* higher level turtle?,,* higher level turtle is in slides only,
+,lecture,8,20-Feb ,Thu,"Functions, Creating and Installing Modules
+
+* [Functions](slides/04/functions-return.html)
+* [Functions and Scope](slides/04/scope.html)
+* [Testing / Assertions](slides/04/functions-testing.html)
+* keyword arguments
+* arbitrary number of arguments
+* creating modules
+* installing modules
+* midterm reminder
+
+Sample Questions Midterm #1
+
+* [Sample Questions for Midterm #1](resources/handouts/midterm_1/midterm_1_practice.pdf)
+* [Sample Questions for Midterm #1 Solutions](resources/handouts/midterm_1/midterm_1_practice_solutions.pdf)
+* [Additional Sample Questions for Midterm #1](resources/handouts/midterm_1/midterm_1_additional_practice.pdf)
+* [Additional Sample Questions for Midterm #1 Solutions](resources/handouts/midterm_1/midterm_1_additional_practice_solutions.pdf)","* [Module #4: Functions, Scope, Modules](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module04.php)
+* [Ch 16. Function Basics](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch16.html#function_basics)
+* [Ch 17. Scopes](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch17.html#scopes)
+  * Python Scope Basics
+  * The global Statement
+  * Scopes and Nested Functions
+* [Ch 22. Module Basics: The Big Picture](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch22.html#modules_colon_the_big_picture)
+* [Ch 23. Module Coding Basics](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch23.html#module_coding_basics)
+  * Module Creation
+  * Module Usage","__Due Thursday, Feb 27th, at 11am__
+
+
+* [Module 05 on Strings](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module05.php)
+* Quiz 05 in NYU Classes (under Tests and Quizzes)",,,"* keyword args
+* arbitrary args 
+* making modules – no slides
+* installing modules – no slides","* completely optional more challenging homework to keep more advanced students engaged?
+* more assignments using package installation (maybe later???)"
+,workshop,9,25-Feb ,Tue,"Functions, Creating and Installing Modules",Workshop,"Homework 4 __Due Mon, 3/9, at 11pm__
+
+
+1. [clicky_quad.py](assignments/hw04/clicky_quad.py)
+2. [analyze_numbers.py](assignments/hw04/analyze_numbers.py)
+3. [funcynum.py](assignments/hw04/funcynum.py)
+	* [instructions only](assignments/hw04/funcynum.html)
+4. [feeling_quizzy.py](assignments/hw04/feeling_quizzy.py)
+	* [instructions only](assignments/hw04/feeling_quizzy.html)
+",,,,"* what to do abt academic integrity
+* hiring – shared?
+* classroom assistant for quizzes (since 3 sections)
+* note that turtle in every assignment"
+y,lecture,10,27-Feb ,Thu,Review,,,,,,
+y,exam,11,03-Mar ,Tue,Midterm #1,,,,,,
+,lecture,12,05-Mar ,Thu,"Strings
+
+* [Strings](slides/06/strings.html)
+* [Strings as List of Characters](slides/06/strings_as_list.html)
+* [Strings as Objects](slides/06/strings_as_objects.html)
+* [Strings: Functions](slides/06/strings_built_in_functions.html)","* [Module #5: Functions, Scope, Modules](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module05.php)
+* [Ch 7. Strings](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch07.html#string_fundamentals)
+",,,,,
+,workshop,13,10-Mar ,Tue,Strings,Workshop,"Homework 5 __Due Monday, 3/23, at 11pm__
+
+1. [encode_decode.py](assignments/hw05/encode_decode.py)
+2. [base_sixteen.py](assignments/hw05/base_sixteen.py)
+3. [variable_names.py](assignments/hw05/variable_names.py)
+4. [pig_latin.py](assignments/hw05/pig_latin.py)",,,,
+,lecture,14,12-Mar ,Thu,"Lists, Tuples and Sets
+
+* [List Basics](slides/04/lists.html)
+* [List Methods](slides/04/list-methods.html)
+* [List Methods and Mutability](slides/05/lists-methods-constructor-comprehension.html)
+* [Tuples](slides/08/tuples.html)
+* [List Mutability Some More, Comprehensions](slides/05/lists-references-map.html)
+* Sets","* [Module #6: Lists, Tuples, and Sets](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module06.php)
+* [Ch 18. Arguments](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch18.html#arguments)
+  * Argument-Passing Basics
+* [Ch 8. Lists and Dictionaries](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch08.html#lists_and_dictionaries)
+  * Lists
+  * Lists in Action
+* [Ch 9. Tuples, Files, and Everything Else](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch09.html#tuples_comma_files_comma_and_everything)
+  * Tuples","__Due Thursday, March 26th, at 9:30am__
+
+* [Module 06 on Lists, Sets, and Tuples](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module06.php)
+* Quiz 06 in NYU Classes (under Tests and Quizzes)",,,,
+y,holiday,,17-Mar ,Tue,No Class Scheduled (Spring Break),,,,,,
+y,holiday,,19-Mar ,Thu,No Class Scheduled (Spring Break),,,,,,
+,workshop,15,24-Mar ,Tue,"Lists, Tuples and Sets","Exam Results
+
+* extra credit assignment / exam weights may be shifted
+* discuss True/False and last 2 coding
+
+
+Workshop
+
+* quick review of lists
+* attempt workshop via zoom
+
+","Homework 6 __Due Monday, 3/30, at 11pm__
+
+
+[All instructions are in this link!](assignments/hw06/list-utilities.html)
+
+Complete 2 out of last 3 or all last 3 for extra credit towards homework.
+
+1. [listutils.py](assignments/hw06/listutils.py)
+2. [syllabic_poetry.py](assignments/hw06/syllabic_poetry.py)
+3. [mydate.py](assignments/hw06/mydate.py) and  [birthday.py](assignments/hw06/birthday.py)
+4. [drawing.py](assignments/hw06/drawing.py)
+
+
+
+",,,,
+,lecture,16,26-Mar ,Thu,"Lists, Tuples and Sets Continued","* Review list methods and list comprehensions
+* See previous slides on Tuples and List Mutability
+* discuss sets",,,,,
+,workshop,17,31-Mar ,Tue,"Lists, Tuples and Sets Continued
+
+Midterm #2 Practice
+
+* [Midterm #2 Practice Questions](resources/handouts/midterm_2/midterm_2_practice.pdf)
+* [Midterm #2 Practice Questions - Solutions](resources/handouts/midterm_2/midterm_2_practice_solutions.pdf)
+* [Midterm #2 List Questions](resources/handouts/midterm_2/midterm_2_list_practice.pdf)
+* [Midterm #2 List Questions - Solutions](resources/handouts/midterm_2/midterm_2_list_practice_solutions.pdf)
+* [Midterm #2 Shared Practice Questions and Solutions](resources/handouts/midterm_2/m02sampleproblems.html)
+",Workshop,"Homework 7 __Due Monday, 4/13, at 11pm__ 
+
+1. [practice.py](assignments/hw07/practice.py)
+2. [animal_functions.py](assignments/hw07/animal_functions.py)
+3. [pawsome_pet_vet.py](assignments/hw07/pawsome_pet_vet.py)
+4. [upc.py](assignments/hw07/upc.py)
+5. [extra_credit towards homework: draw_barcode.py](assignments/hw07/draw_barcode.py)",,,,
+y,lecture,18,02-Apr ,Thu,Review,,,,,,
+y,exam,19,07-Apr ,Tue,Midterm #2,,,,,,
+,lecture,20,09-Apr ,Thu,"
+Exceptions, File I/O and Data Formats
+
+* [Exceptions](slides/exceptions-file-io/exceptions.html)
+* [Paths](slides/exceptions-file-io/paths.html)
+* [File IO](slides/exceptions-file-io/files.html)
+* [File IO Review](slides/exceptions-file-io/files-review.html)","* [Module #8: Exceptions, File I/O](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module08.php)
+* [Ch 9. Tuples, Files, and Everything Else](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch09.html#tuples_comma_files_comma_and_everything)
+  * Files
+* [Ch 32. Exception Basics](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch33.html#exception_basics)
+  * Why Use Exceptions?
+* [Ch 33. Exception Coding Details](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch34.html#exception_coding_details)
+  * The try/except/else Statement
+  * The try/finally Statement
+  * Unified try/except/finally
+  * The raise Statement
+","__Due Tuesday, April 14th, at 11:00am__
+
+* [Module 08 on Exceptions and File IO](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module08.php)
+* Quiz 07 in NYU Classes (under Tests and Quizzes)
+* __Note the module and quiz number are different__",,,,
+,workshop,21,14-Apr ,Tue,"
+
+Exceptions, File I/O and Data Formats",Workshop,"Homework 8 __Due Monday, 4/20, at 11pm__
+
+1. [nba.py](assignments/hw08/nba.py)
+  *  [stats-clean.txt](assignments/hw08/stats-clean.txt)
+2. [wordsy.py](assignments/hw08/wordsy.py)
+  *  [enable1.txt](assignments/hw08/enable1.txt)
+3. [battleship.py](assignments/hw08/battleship.py)",,,,
+,lecture,22,16-Apr ,Thu,"Dictionaries and Counters
+
+* [Dictionaries](slides/06/dictionaries.html)
+* [Counting with Various Data Types](slides/collections/counter.html)","* [Module #7: Dictionaries](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module07.php)
+* [Ch 8. Lists and Dictionaries](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch08.html#lists_and_dictionaries)
+  * Dictionaries
+  * Dictionaries in Action
+","__Due Tuesday, April 21st, at 11:00am__
+
+* [Module 07 on Dictionaries](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module07.php)
+* Quiz 08 in NYU Classes (under Tests and Quizzes)
+* __Note the module and quiz number are different__",,,,
+,workshop,23,21-Apr ,Tue,Dictionaries and Counters,Workshop,"Homework 9  __Due Monday, 4/27, at 11pm__
+
+1. [Instructions for HW09](assignments/hw09/lousy_plasma.html)
+  * [lousy_plasma.py](assignments/hw09/lousy_plasma.py) 
+  * [lousy_plasma.txt](assignments/hw09/lousy_plasma.txt) 
+2. [many_things.py](assignments/hw09/many_things.py)
+
+__Due Thursday, April 23rd, at 11:00am__
+
+* [Module 09 on Classes and Objects](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module09.php)
+* Quiz 09 in NYU Classes (under Tests and Quizzes)
+",,,,
+,lecture,24,23-Apr ,Thu,"Classes and Objects
+
+* [Object Oriented Programming](slides/oop/oop.html)
+","* [Module #9: Classes and Objects](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module09.php)
+* [Ch 26. OOP: The Big Picture](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch26.html#oop_colon_the_big_picture)
+* [Ch 28. A More Realistic Example](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch28.html#a_more_realistic_example)
+  * Step 1: Making Instances
+  * Step 2: Adding Behavior Methods
+* [Ch 29. Class Coding Details](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch29.html#class_coding_details)
+  * The class Statement
+  * Methods",,,,,
+,lecture,25,28-Apr ,Tue,"More Classes and Objects, Recursion and Higher Order Functions
+
+* Sub-classing (previous, class) 
+* Other Magic Methods
+  * iter
+  * getitem
+* Higher Order Functions / [Decorators](slides/functional/decorators.html)
+  * functions as objects 
+  * lambda
+  * ex: sorted
+* Animation","* [Ch 28. A More Realistic Example](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch28.html#a_more_realistic_example)
+  * Step 3: Operator Overloading  
+  * Step 4: Customizing Behavior by Subclassing
+* [Ch 29. Class Coding Details](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch29.html#class_coding_details)
+  * Inheritance
+* [Ch 19. Advanced Function Topics](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch19.html#advanced_function_topics)
+  * Recursion
+  * Function Objects: Attributes and Annotations – Indirect Function Calls",,,,,
+,workshop,26,30-Apr ,Thu,"More Classes and Objects, Recursion and Higher Order Functions ",,"Homework 10, Midterm Extra Credit  __Due Sunday, 5/3, at 11pm__
+
+[Instructions for HW10, Midterm Extra Credit](assignments/hw10/calculator.html)
+
+* [stack.py](assignments/hw10/stack.py) 
+* [test_stack.py](assignments/hw10/test_stack.py) 
+* [calculator.py](assignments/hw10/calculator.py) 
+* [test_calculator.py](assignments/hw10/test_calculator.py) 
+* [animation.py](assignments/hw10/animation.py) ",,,,
+,lecture,27,05-May ,Tue,"Libraries
+
+* [Image Processing](slides/13/images.html)
+* (Pillow/PIL)
+",,,,,,
+,lecture,28,07-May ,Thu,Review,,"
+* [Final Exam Practice Questions - Set 1](resources/handouts/final/final_practice_questions_set_1.pdf)
+* [Final Exam Practice Questions - Set 1 - Solutions](resources//handouts/final/final_practice_questions_set_1_solutions.pdf)
+* [Final Exam Practice Questions - Set 2](resources/handouts/final/final_practice_questions_set_2.pdf)
+* [Final Exam Practice Questions - Set 2 - Solutions](resources/handouts/final/final_practice_questions_set_2_solutions.pdf)
+* [Final Exam Practice Questions - All Sections](resources/handouts/final/finalsampleproblems.html)
+",,,,
+,exam,,14-May,Thu,Final Exam: 10:00AM - 11:50AM,,,,,,
