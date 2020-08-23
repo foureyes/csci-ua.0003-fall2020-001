@@ -69,11 +69,10 @@ This course introduces fundamentals of computer programming, object-oriented pro
 <div class="panel-heading">Grading</div>
 <div class="panel-body" markdown="block">
 
-* 20%: 10 Programming Assignments
-* 5%: 8-10 online quizzes (taken from home)
-* 20%: Midterm #1
-* 20%: Midterm #2
-* 35%: Final
+* 40%: 10 Programming Assignments
+* 10%: 8-10 online quizzes (taken from home)
+* 20%: Midterm 
+* 30%: Final
 
 </div>
     </div>

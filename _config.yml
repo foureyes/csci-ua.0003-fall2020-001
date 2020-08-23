@@ -3,24 +3,24 @@ relative_links:
 baseurl: ""
 
 
-title: CSCI-UA.0003 Spring 2020, Section 002
+title: CSCI-UA.0003 Fall 2020, Section 001
 email: jversoza at cs dot nyu dot edu
 
 # course
 # CSCI-GA.1120-001 - Introduction to Programming - 60 Fifth Ave C10
 course_number: "CSCI-UA.0003"
-course_section: "002"
+course_section: "001"
 course_name: "Introduction to Computer Programming (Limited Prior Experience)"
-course_semester: "Spring 2020"
+course_semester: "Fall 2020"
 course_dept: CS
 course_dept_link: http://cs.nyu.edu/
-course_time: "Tuesdays and Thursdays, 11:00AM to 12:15PM"
-course_room: WWH 312
-course_site: https://cs.nyu.edu/courses/spring20/CSCI-UA.0003-002/ 
+course_time: "Monday and Wednesday, 9:30AM to 10:45PM"
+course_room: remote
+course_site: https://cs.nyu.edu/courses/fall20/CSCI-UA.0003-001/ 
 course_site_alt: http://cs.nyu.edu/~jversoza
 
-office_hours: "<br>Mon 8:45am - 10:45am and Tue 1:30pm - 2:30pm, WWH 422"
-office_hours_room: WWH 422 
+office_hours: "To be posted"
+office_hours_room: remote
 
 # midterm
 midterm1_date: "N/A"
