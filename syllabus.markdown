@@ -69,6 +69,8 @@ This course introduces fundamentals of computer programming, object-oriented pro
 <div class="panel-heading">Grading</div>
 <div class="panel-body" markdown="block">
 
+Your grade in this course will be determined based on the items below. Note that the following rubric serves as a guideline for how grades will be calculated. __The final percentage allotted to each category is at the instructor’s discretion.__ 
+
 * 40%: 10 Programming Assignments
 * 10%: 8-10 online quizzes (taken from home)
 * 20%: Midterm 
