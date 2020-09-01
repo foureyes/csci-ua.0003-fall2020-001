@@ -248,14 +248,9 @@ Complete 2 out of last 3 or all last 3 for extra credit towards homework.
 ",,,,
 y,,16,Oct-28,Wed,"Lists, Tuples and Sets Continued","* Review list methods and list comprehensions
 * See previous slides on Tuples and List Mutability
-* discuss sets","__Due Wed, Nov 4th, at 9am__
-
-* [Module 08 on Exceptions and File IO](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module08.php)
-* Quiz 07 in NYU Classes (under Tests and Quizzes)
-* __Note the module and quiz number are different__",,,,
+* discuss sets",,,,,
 y,,17,Nov-2,Mon,"Lists, Tuples and Sets Continued
 
-<!--
 Midterm #2 Practice
 
 * [Midterm #2 Practice Questions](resources/handouts/midterm_2/midterm_2_practice.pdf)
@@ -263,8 +258,7 @@ Midterm #2 Practice
 * [Midterm #2 List Questions](resources/handouts/midterm_2/midterm_2_list_practice.pdf)
 * [Midterm #2 List Questions - Solutions](resources/handouts/midterm_2/midterm_2_list_practice_solutions.pdf)
 * [Midterm #2 Shared Practice Questions and Solutions](resources/handouts/midterm_2/m02sampleproblems.html)
--->
-",Workshop,"Homework 7 __Due Sun, 11/8, at 11pm__ 
+",Workshop,"Homework 7 __Due Monday, 4/13, at 11pm__ 
 
 1. [practice.py](assignments/hw07/practice.py)
 2. [animal_functions.py](assignments/hw07/animal_functions.py)
@@ -287,14 +281,14 @@ Exceptions, File I/O and Data Formats
   * The try/finally Statement
   * Unified try/except/finally
   * The raise Statement
-","__Due Wed, Nov 11th, at 9am__
+","__Due Tuesday, April 14th, at 11:00am__
 
-* [Module 07 on Dictionaries](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module07.php)
-* Quiz 08 in NYU Classes (under Tests and Quizzes)
+* [Module 08 on Exceptions and File IO](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module08.php)
+* Quiz 07 in NYU Classes (under Tests and Quizzes)
 * __Note the module and quiz number are different__",,,,
 y,,19,Nov-9,Mon,"
 
-Exceptions, File I/O and Data Formats",Workshop,"Homework 8 __Due Sun, 11/15, at 11pm__
+Exceptions, File I/O and Data Formats",Workshop,"Homework 8 __Due Monday, 4/20, at 11pm__
 
 1. [nba.py](assignments/hw08/nba.py)
   *  [stats-clean.txt](assignments/hw08/stats-clean.txt)
@@ -308,17 +302,22 @@ y,,20,Nov-11,Wed,"Dictionaries and Counters
 * [Ch 8. Lists and Dictionaries](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch08.html#lists_and_dictionaries)
   * Dictionaries
   * Dictionaries in Action
-","__Due Wed, Nov 18th, at 9am__
+","__Due Tuesday, April 21st, at 11:00am__
 
-* [Module 09 on Classes and Objects](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module09.php)
-* Quiz 09 in NYU Classes (under Tests and Quizzes)",,,,
-y,,21,Nov-16,Mon,Dictionaries and Counters,Workshop,"Homework 9  __Due Sun, 11/22, at 11pm__
+* [Module 07 on Dictionaries](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module07.php)
+* Quiz 08 in NYU Classes (under Tests and Quizzes)
+* __Note the module and quiz number are different__",,,,
+y,,21,Nov-16,Mon,Dictionaries and Counters,Workshop,"Homework 9  __Due Monday, 4/27, at 11pm__
 
 1. [Instructions for HW09](assignments/hw09/lousy_plasma.html)
   * [lousy_plasma.py](assignments/hw09/lousy_plasma.py) 
   * [lousy_plasma.txt](assignments/hw09/lousy_plasma.txt) 
 2. [many_things.py](assignments/hw09/many_things.py)
 
+__Due Thursday, April 23rd, at 11:00am__
+
+* [Module 09 on Classes and Objects](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module09.php)
+* Quiz 09 in NYU Classes (under Tests and Quizzes)
 ",,,,
 y,,22,Nov-18,Wed,"Classes and Objects
 
@@ -348,7 +347,8 @@ y,,23,Nov-23,Mon,"More Classes and Objects, Recursion and Higher Order Functions
   * Inheritance
 * [Ch 19. Advanced Function Topics](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch19.html#advanced_function_topics)
   * Recursion
-  * Function Objects: Attributes and Annotations – Indirect Function Calls","Homework 10  __Due Sun, 11/29, at 11pm__
+  * Function Objects: Attributes and Annotations – Indirect Function Calls",,,,,
+y,,24,Nov-25,Wed,"More Classes and Objects, Recursion and Higher Order Functions ",,"Homework 10, Midterm Extra Credit  __Due Sunday, 5/3, at 11pm__
 
 [Instructions for HW10, Midterm Extra Credit](assignments/hw10/calculator.html)
 
@@ -357,8 +357,7 @@ y,,23,Nov-23,Mon,"More Classes and Objects, Recursion and Higher Order Functions
 * [calculator.py](assignments/hw10/calculator.py) 
 * [test_calculator.py](assignments/hw10/test_calculator.py) 
 * [animation.py](assignments/hw10/animation.py) ",,,,
-y,,24,Nov-25,Wed,"More Classes and Objects, Recursion and Higher Order Functions ",,,,,,
-y,,25,Nov-30,Mon,Iterators and Generators,,"Homework 11 __Due Sun, 12/6, at 11pm__",,,,
+y,,25,Nov-30,Mon,Iterators and Generators,,,,,,
 y,,26,Dec-2,Wed,"Libraries
 
 * [Image Processing](slides/13/images.html)
