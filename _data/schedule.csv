@@ -1,6 +1,7 @@
 draft,type,num,date,day,slides,readings,assignments,need quiz,,only lecture,notes
 ,,1,Sep-2,Wed,"Introductions, Welcome
 
+* Meeting Recording
 * [Introductions](slides/01/intro.html)
 * [About Programming](slides/01/about-programming.html)
 * [Hardware](slides/01/computers-storage.html)
@@ -8,13 +9,17 @@ draft,type,num,date,day,slides,readings,assignments,need quiz,,only lecture,note
 * [Tools](slides/01/tools.html) 
 * [Reading and Writing Programs](slides/01/reading-writing-programs.html)
 * [Programming Work Flow](slides/01/programming-workflow.html)
-
+* Tutoring
 <!--
 * [Installing Tools](slides/01/installing-tools.html)
 -->
 ","* [Ch 1. A Python Q&A Session](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch01.html#a_python_qaa_session)
 * [Ch 3. How You Run Programs](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch03.html#how_you_run_programs)
-  * The Interactive Prompt","__Due Wed, Sep 9th, at 9am__
+  * The Interactive Prompt","__Due Today, Sep 2nd at 11pm__
+
+* [Class 01 Survey](https://forms.gle/YbKNfhHmeXxSNeej9) (Must be logged in to NYU google account)
+
+__Due Wed, Sep 9th, at 9am__
 
 
 

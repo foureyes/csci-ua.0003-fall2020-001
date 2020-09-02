@@ -41,7 +41,7 @@ There will be weekly office hours available, as well as weekly tutoring sessions
 <div class="panel-heading">Required Software</div>
 <div class="panel-body" markdown="block">
 * [Python](https://www.python.org)
-* [PyCharm](https://www.jetbrains.com/pycharm/)
+* [PyCharm](https://www.jetbrains.com/pycharm/) (⚠ __Community Edition__)
 </div>
     </div>
     <div class="panel panel-default">
@@ -51,6 +51,31 @@ There will be weekly office hours available, as well as weekly tutoring sessions
 
 * [Learning Python, 5th Edition](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/) by Mark Lutz (Optional)
 
+</div>
+    </div>
+    <div class="panel panel-default">
+
+<a name="info"></a>
+<div class="panel-heading">Tutoring</div>
+<div class="panel-body" markdown="block">
+__Remote Tutoring via Video Conference__
+
+Tutoring schedule to be announced
+
+__Remote Tutoring via Discussion Forum__
+
+We are happy to be offering a new tutoring service which is designed to let students ask questions and get responses using an online forum. Questions asked in this way will not be answered immediately, but response time should be fairly quick.
+
+To do this we will be using an online discussion tool named "Ed" which is designed to make it easy to have conversations around code. Using Ed you will be able to ask the course tutors or your fellow students questions about course content and homework assignments. For example, let's say you're having trouble understanding how to convert user input from a String to an Integer. You can create a new thread on our Ed discussion forum with your question - including a live code snippet - and members of the class can respond and provide helpful hints to get you started.
+
+This is a completely optional service designed to supplement _live 1:1_ tutoring. However, we encourage you to use the system since we find that we answer the same questions over and over via e-mail -- this will allow us to centralize answers to questions that can benefit all students in the class.
+
+To join this Ed discussion forum simply visit this link and register with your NYU E-mail address: [https://us.edstem.org/join/xg3R9u](https://us.edstem.org/join/xg3R9u)
+
+
+Once you've registered please check out the "Welcome and Frequently Asked Questions" thread - we've posted some "ground rules" here on what should and should not be posted to Ed (i.e. don't post full solutions to your homework assignments!)
+
+When you're ready to ask a question simply click the "New Thread" button and select the category for your question (i.e. Assignment #2, Module #3, etc). Then type your question in the box provided, using the "code" button ("<>") to add in live Python3 code to your thread.
 </div>
     </div>
   </div><!-- end col -->
@@ -102,6 +127,11 @@ Your grade in this course will be determined based on the items below. Note that
 <div class="row">
   <div class="col-md-6">
   </div><!-- end col -->
+
+
+
+
+
 
   <div class="col-md-6">
   </div><!-- end col -->
