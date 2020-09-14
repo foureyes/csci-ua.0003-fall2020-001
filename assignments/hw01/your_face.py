@@ -15,4 +15,3 @@ Requirements
     * set the window size to 400 x 400
     * hint: if you want your drawing to display faster, turn animation off
 """
-i

@@ -71,21 +71,28 @@ __Due Wed, Sep 9th, at 9am__
 * Quiz 02-A and Quiz 02-B in NYU Classes (under Tests and Quizzes)","* fstrings
 * % operator",,* fstrings,"* is using pycharm worth type annotations?
 * need to be more consistent with type annotations"
-y,,3,Sep-14,Mon,"Types, Operators, Variables
+,,3,Sep-14,Mon,"Types, Operators, Variables
 
 * Multiple Assignment
+* Formatting, Length (review)
 
 Drawing
 
-* [Turtle Basics](slides/turtle/turtle.html)",Workshop,"Homework 1 __Due Sun, 9/20, at 11pm__
+* [Turtle Basics](slides/turtle/turtle.html)",Workshop,"[Workshop Instructions and Form](assignments/hw01/workshop01.html) (please submit this by the end of class)
 
-* [stadium_seating.py](assignments/hw01/stadium_seating.py)
-* [multiply.py](assignments/hw01/multiply.py)
+Homework 1 __Due Sun, 9/20, at 11pm__
+
+
+* [prime_time.py](assignments/hw01/prime_time.py) ([directions as web page](assignments/hw01/prime_time.html)) 
 * [change_puhleese.py](assignments/hw01/change_puhleese.py)
+* [disapproval.py](assignments/hw01/disapproval.py)
+
+<!--
+* [multiply.py](assignments/hw01/multiply.py)
 * [your_face.py](assignments/hw01/your_face.py) 
-",,,,"* reiterate homework policy
+-->",,,,"* reiterate homework policy
 * annotate if used online resource"
-y,,4,Sep-16,Wed,"Boolean Logic, If and While, Modules
+,,4,Sep-16,Wed,"Boolean Logic, If and While, Modules
 
 * [Conditionals](slides/02/review-conditionals.html)
 * [Boolean Logic](slides/02/boolean-logic.html)
