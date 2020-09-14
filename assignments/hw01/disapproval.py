@@ -12,10 +12,9 @@ Requirements
 * but it should have:
     * eyes
     * a mouth
-    * and a disapproving face
+    * and a disapproving _vibe_
 * you have to use the turtle module
     * need some help drawing? (https://docs.python.org/3.7/library/turtle.html)
         * [circles](https://docs.python.org/3.7/library/turtle.html#turtle.circle)
-        * [coloring](https://docs.python.org/3.7/library/turtle.html#turtle.circle)
-    * hint: if you want your drawing to display faster, turn animation off
+        * [filling with a color](https://docs.python.org/3/library/turtle.html#turtle.begin_fill)
 """
