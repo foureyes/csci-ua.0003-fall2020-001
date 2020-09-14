@@ -22,8 +22,8 @@ You'll submit your group work (which can be a work-in-progress and not complete)
 		* major
 		* favorite breakfast food
 	* __group roles__: two group members should volunteer to be:
-		1. leader / screensharer - shares screen and editor
-		2. timekeeper - reminds group to fill out form when 5 minutes are left
+		1. leader / screen sharer - shares screen and editor, live codes 
+		2. time keeper - reminds group to fill out form when 5 minutes are left
 2. `40 min`: download [prime_time.py](prime_time.py) ([web instructions](prime_time.html))and work together to complete as much as you can
 	* The code written during the workshop must still be submitted in your homework submission with your other files
 	* The remaining files outside of the workshop (all files other than `prime_time.py`) __must be done individually__
