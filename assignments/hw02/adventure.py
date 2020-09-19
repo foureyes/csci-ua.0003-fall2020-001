@@ -38,8 +38,13 @@ they open it, an outcome will be randomly generated.
     * if the number is 11 up-to and including 15, something good happens
     * if the number is greater than 15, something great happens
 11. If they choose to leave, display a message saying that nothing happens
-12. If they don't enter either some permutation of 'leave' or 'open', scold
-    them and end the game.
+12. Add an additional command of your choice (remember to add it within the
+    question asked in #9
+13. If the user chooses your custom command, add another question with at 
+    least two other options / sub commands. When one of the options are 
+    chosen, describe what happens and end the game
+14. If they don't enter either some permutation of 'leave' or 'open'... or
+    your custom option, scold them and end the game.
 
 __COMMENT YOUR SOURCE CODE__ by 
 
@@ -48,7 +53,7 @@ __COMMENT YOUR SOURCE CODE__ by
   file (above these instructions)
 
 Example Output below (you can create your own outcomes). Anything that starts
-with > is user input:
+with > is user input (note, only the last example shows the custom command):
 
 Example Run 1 (note the contents of the welcome message, and the result of
 entering Programmer as an occupation):
@@ -100,4 +105,13 @@ Do you want to open the chest or leave the room?
 > break the chest open!!!
 You didn't open or leave the chest, and consequently a magic spell turns
 you into a tiny lemur. Things could we worse, I guess. Game over.
+
+Example Run 7 (assume that the player answered Wizard or Warrior):
+-----
+You're in a dimly lit room, standing in front of an enormous steel chest.
+Do you want to open the chest, leave the room, or CUSTOM_COMMAND
+> CUSTOM_COMMAND
+Do you want to SUB_COMMAND_1 or SUB_COMMAND_2?
+> SUB_COMMAND_1
+DESCRIPTION OF WHAT HAPPENS. Game over.
 """

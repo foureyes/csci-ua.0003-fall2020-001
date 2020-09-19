@@ -114,14 +114,16 @@ Homework 1 __Due Sun, 9/20, at 11pm__
 * Quiz 03 in NYU Classes (under Tests and Quizzes)",,,,"* while loops AND if statements together may have been much
 * but definitely starts separating the class
 * again, wait until ds students?"
-y,,5,Sep-21,Mon,"Boolean Logic, If and While, Modules",Workshop,"Homework 2 __Due Sun, 9/27, at 11pm__
+,,5,Sep-21,Mon,"Boolean Logic, If and While, Modules",Workshop,"[Workshop Instructions and Form](assignments/hw02/workshop02.html) (please submit this by the end of class)
+
+Homework 2 __Due Sun, 9/27, at 11pm__
 
 
 * [adventure.py](assignments/hw02/adventure.py)
 * [odds_and_evens.py](assignments/hw02/odds_and_evens.py)
 * [tip.py](assignments/hw02/tip.py)
 * [average_word.py](assignments/hw02/average_word.py)",,,,
-y,,6,Sep-23,Wed,"Debugging, For Loops, Nested Loops
+,,6,Sep-23,Wed,"Debugging, For Loops, Nested Loops
 
 * [Errors and Debugging](slides/02/debugging.html)
 * [For Loops](slides/03/for.html)
