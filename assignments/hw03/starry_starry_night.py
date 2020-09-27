@@ -42,5 +42,16 @@ Again, comment out the code from the previous part (Part 2). Copy any relevant c
 
 ![lots of stars](../../resources/img/turtle/starry_4.png)
 
+
+### OPTIONAL
+
+This one is pretty tricky. Only try to do this if you finish the previous parts very early and want an extra challenge. Try to animate one or some of the stars:
+
+* you'll have to do some research on lists
+* create a list of positions of all stars
+* modify the values in this list before each frame is drawn
+* use [the slides on ontimer and animation](../../slides/turtle/turtle-more.html#47)
+
+![animated](http://localhost:2000/resources/img/turtle/starry_ec.gif)
 """
 

@@ -142,18 +142,20 @@ Homework 2 __Due Sun, 9/27, at 11pm__
 * step over",,,"* most students were actually ok
 * ...but the ones that were very far off!
 * pycharm debugger is better than idle; need to get better at figuring out modes / switching from running one file to another"
-y,,7,Sep-28,Mon,"Debugging, For Loops, Nested Loops
+,,7,Sep-28,Mon,"Debugging, For Loops, Nested Loops
 
 * see nested loops above
 * [Turtle review](slides/turtle/turtle-more.html)
-  * bgcolor, color, size, square",Workshop,"Homework 3 __Due Sun, 10/4, at 11pm__
+  * bgcolor, color, size, square",Workshop,"[Workshop Instructions and Form](assignments/hw03/workshop03.html) (please submit this by the end of class)
 
+Homework 3 __Due Sun, 10/4, at 11pm__
 
-* [forwards_backwards.py](assignments/hw03/forwards_backwards.py)
-* [many_words.py](assignments/hw03/many_words.py)
 * [Starry starry night instructions](assignments/hw03/starry_starry_night.html)
   * [starry_starry_night.py](assignments/hw03/starry_starry_night.py)
-* [pyramid.py](assignments/hw03/pyramid.py)",* higher level turtle?,,* higher level turtle is in slides only,
+* [pyramid.py](assignments/hw03/pyramid.py)
+* [forwards_backwards.py](assignments/hw03/forwards_backwards.py)
+* [many_words.py](assignments/hw03/many_words.py)
+",* higher level turtle?,,* higher level turtle is in slides only,
 y,,8,Sep-30,Wed,"Functions, Creating and Installing Modules
 
 * [Functions](slides/04/functions-return.html)
