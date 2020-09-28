@@ -19,6 +19,7 @@ function init() {
 </script>
 -->
 
+
 <div id="quick-links">
 <h3 style="text-align: center;"><a href="syllabus.html">Homework and Quiz Policy</a> </h3>
 </div>
