@@ -1,5 +1,5 @@
 ---
-layout: hw
+layout: homework
 title: feeling_quizzy.py
 prefix: ../../
 ---

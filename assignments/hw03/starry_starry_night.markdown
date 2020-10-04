@@ -1,5 +1,5 @@
 ---
-layout: homework                                                                                             
+layout: homework
 title: starry_starry_night.py
 ---
 

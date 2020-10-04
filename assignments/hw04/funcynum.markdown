@@ -1,5 +1,5 @@
 ---
-layout: hw
+layout: homework
 title: funcynum.py
 prefix: ../../
 ---
