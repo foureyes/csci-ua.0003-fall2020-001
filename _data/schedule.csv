@@ -194,21 +194,22 @@ Sample Questions Midterm #1
 * making modules – no slides
 * installing modules – no slides","* completely optional more challenging homework to keep more advanced students engaged?
 * more assignments using package installation (maybe later???)"
-y,,9,Oct-5,Mon,"Functions, Creating and Installing Modules",Workshop,"Homework 4 __Due Sun, 10/18, at 11pm__
+,,9,Oct-5,Mon,"Functions, Creating and Installing Modules",Workshop,"[Workshop Instructions and Form](assignments/hw04/workshop04.html) (please submit this by the end of class)
 
+Homework 4 __Due Sun, 10/18, at 11pm__
 
-1. [clicky_quad.py](assignments/hw04/clicky_quad.py)
-2. [analyze_numbers.py](assignments/hw04/analyze_numbers.py)
-3. [funcynum.py](assignments/hw04/funcynum.py)
+1. [funcynum.py](assignments/hw04/funcynum.py)
 	* [instructions only](assignments/hw04/funcynum.html)
-4. [feeling_quizzy.py](assignments/hw04/feeling_quizzy.py)
+2. [feeling_quizzy.py](assignments/hw04/feeling_quizzy.py)
 	* [instructions only](assignments/hw04/feeling_quizzy.html)
+3. [clicky_quad.py](assignments/hw04/clicky_quad.py)
+4. [analyze_numbers.py](assignments/hw04/analyze_numbers.py)
 ",,,,"* what to do abt academic integrity
 * hiring – shared?
 * classroom assistant for quizzes (since 3 sections)
 * note that turtle in every assignment"
-y,,10,Oct-7,Wed,Review,,,,,,
-y,,11,Oct-12,Mon,__Midterm #1__ ⚠ __date subject to change__,,,,,,
+,,10,Oct-7,Wed,Review,,,,,,
+y,,11,Oct-12,Mon,__Midterm #1__ ,,,,,,
 y,,12,Oct-14,Wed,"Strings
 
 * [Strings](slides/06/strings.html)
