@@ -221,7 +221,9 @@ y,,11,Oct-12,Mon,__Midterm #1__ ,,,,,,
 
 * [Module 06 on Lists, Sets, and Tuples](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module06.php)
 * Quiz 06 in NYU Classes (under Tests and Quizzes)",,,,
-,,13,Oct-19,Mon,Strings,Workshop,"Homework 5 __Due Sun, 10/25, at 11pm__
+,,13,Oct-19,Mon,Strings,Workshop,"[Workshop Instructions and Form](assignments/hw05/workshop05.html) (please submit this by the end of class)
+
+Homework 5 __Due Sun, 10/25, at 11pm__
 
 1. [encode_decode.py](assignments/hw05/encode_decode.py)
 2. [base_sixteen.py](assignments/hw05/base_sixteen.py)

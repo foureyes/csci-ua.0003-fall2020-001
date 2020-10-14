@@ -1,9 +1,12 @@
----                                                                                                          
-layout: homework                                                                                             
-title: "Workshop #4"
+---
+layout: homework
+title: "Workshop #5"
+file: encode_decode.py
+instructions:
+form: "https://forms.gle/Vq6Fjp8x4MYAGtQv9"
 ---   
 
-# Workshop #4
+# {{page.title}}
 
 ## Overview
 
@@ -19,11 +22,11 @@ title: "Workshop #4"
 	* __group roles__: two group members should volunteer to be:
 		1. leader / screen sharer - shares screen and editor, live codes 
 		2. time keeper - reminds group to fill out form when 5 minutes are left
-2. `40 min`: download [func_num.py](funcynum.py) ([html instructions are available](funcynum.html)) and work together to complete as much as you can
+2. `40 min`: download [{{page.file}}]({{page.file}}) <!--([html instructions are available](encode_decode.html)) and work together to complete as much as you can -->
 	* The code written during the workshop must still be submitted in your homework submission with your other files
-	* The remaining files outside of the workshop (all files other than `funcynum.py`) __must be done individually__
+	* The remaining files outside of the workshop (all files other than `{{page.file}}`) __must be done individually__
 	* If you finish `funcynum.py` before allotted time, you can move on to other parts of the homework 
-3. `5 min`: fill out the [workshop submission form](https://forms.gle/jMNkRvcSZ8X4r29M6) (please submit this by the end of class)
+3. `5 min`: fill out the [{{page.form}}]({{page.form}}) (please submit this by the end of class)
 	* You must be logged in to your NYU Google account to access the form
 4. At the end of the workshop, everyone will be brought back to the main room
 
