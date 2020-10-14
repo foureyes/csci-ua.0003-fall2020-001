@@ -210,7 +210,7 @@ Homework 4 __Due Sun, 10/18, at 11pm__
 * note that turtle in every assignment"
 ,,10,Oct-7,Wed,Review,,,,,,
 y,,11,Oct-12,Mon,__Midterm #1__ ,,,,,,
-y,,12,Oct-14,Wed,"Strings
+,,12,Oct-14,Wed,"Strings
 
 * [Strings](slides/06/strings.html)
 * [Strings as List of Characters](slides/06/strings_as_list.html)
@@ -221,7 +221,7 @@ y,,12,Oct-14,Wed,"Strings
 
 * [Module 06 on Lists, Sets, and Tuples](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module06.php)
 * Quiz 06 in NYU Classes (under Tests and Quizzes)",,,,
-y,,13,Oct-19,Mon,Strings,Workshop,"Homework 5 __Due Sun, 10/25, at 11pm__
+,,13,Oct-19,Mon,Strings,Workshop,"Homework 5 __Due Sun, 10/25, at 11pm__
 
 1. [encode_decode.py](assignments/hw05/encode_decode.py)
 2. [base_sixteen.py](assignments/hw05/base_sixteen.py)
