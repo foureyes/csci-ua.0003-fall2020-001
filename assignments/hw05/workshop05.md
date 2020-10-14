@@ -10,7 +10,7 @@ form: "https://forms.gle/Vq6Fjp8x4MYAGtQv9"
 
 ## Overview
 
-⚠️ __Every group member must submit their own form, though the code may be the similar for `funcynum.py`__
+⚠️ __Every group member must submit their own form, though the code may be the similar for `{{page.file}}`__
 
 ## Instructions
 
