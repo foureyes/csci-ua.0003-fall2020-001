@@ -246,7 +246,7 @@ Homework 5 __Due Sun, 10/25, at 11pm__
   * Lists in Action
 * [Ch 9. Tuples, Files, and Everything Else](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch09.html#tuples_comma_files_comma_and_everything)
   * Tuples",,,,,
-y,,15,Oct-26,Mon,"Lists, Tuples and Sets","Exam Results
+,,15,Oct-26,Mon,"Lists, Tuples and Sets","Exam Results
 
 * extra credit assignment / exam weights may be shifted
 * discuss True/False and last 2 coding
@@ -257,7 +257,9 @@ Workshop
 * quick review of lists
 * attempt workshop via zoom
 
-","Homework 6 __Due Sun, 11/1, at 11pm__
+","[Workshop Form](assignments/hw06/workshop06.html) (please submit this by the end of class)
+
+Homework 6 __Due Sun, 11/1, at 11pm__
 
 
 [All instructions are in this link!](assignments/hw06/list-utilities.html)
@@ -272,7 +274,7 @@ Complete 2 out of last 3 or all last 3 for extra credit towards homework.
 
 
 ",,,,
-y,,16,Oct-28,Wed,"Lists, Tuples and Sets Continued","* Review list methods and list comprehensions
+,,16,Oct-28,Wed,"Lists, Tuples and Sets Continued","* Review list methods and list comprehensions
 * See previous slides on Tuples and List Mutability
 * discuss sets","__Due Wed, Nov 4th, at 9am__
 
