@@ -257,7 +257,9 @@ Workshop
 * quick review of lists
 * attempt workshop via zoom
 
-","[Workshop Form](assignments/hw06/workshop06.html) (please submit this by the end of class)
+","<!--
+
+[Workshop Form](assignments/hw06/workshop06.html) (please submit this by the end of class)
 
 Homework 6 __Due Sun, 11/1, at 11pm__
 
@@ -271,7 +273,7 @@ Complete 2 out of last 3 or all last 3 for extra credit towards homework.
 3. [mydate.py](assignments/hw06/mydate.py) and  [birthday.py](assignments/hw06/birthday.py)
 4. [drawing.py](assignments/hw06/drawing.py)
 
-
+-->
 
 ",,,,
 ,,16,Oct-28,Wed,"Lists, Tuples and Sets Continued","* Review list methods and list comprehensions
