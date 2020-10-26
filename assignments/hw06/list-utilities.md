@@ -49,7 +49,7 @@ function onClick(evt) {
 }
 </script>
 
-# Functions and Lists - Due Tuesday, October 29th at 11pm
+# Functions and Lists - Due Sunday, November 1st at 11pm
 
 
 ```
