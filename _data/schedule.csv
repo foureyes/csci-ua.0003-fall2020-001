@@ -283,7 +283,7 @@ Complete 2 out of last 3 or all last 3 for extra credit towards homework.
 * [Module 08 on Exceptions and File IO](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module08.php)
 * Quiz 07 in NYU Classes (under Tests and Quizzes)
 * __Note the module and quiz number are different__",,,,
-y,,17,Nov-2,Mon,"Lists, Tuples and Sets Continued
+,,17,Nov-2,Mon,"Lists, Tuples and Sets Continued
 
 <!--
 Midterm #2 Practice
@@ -294,7 +294,9 @@ Midterm #2 Practice
 * [Midterm #2 List Questions - Solutions](resources/handouts/midterm_2/midterm_2_list_practice_solutions.pdf)
 * [Midterm #2 Shared Practice Questions and Solutions](resources/handouts/midterm_2/m02sampleproblems.html)
 -->
-",Workshop,"Homework 7 __Due Sun, 11/8, at 11pm__ 
+",Workshop,"[Workshop Form](assignments/hw07/workshop07.html) (please submit this by the end of class)
+
+Homework 7 __Due Sun, 11/8, at 11pm__ 
 
 1. [practice.py](assignments/hw07/practice.py)
 2. [animal_functions.py](assignments/hw07/animal_functions.py)
