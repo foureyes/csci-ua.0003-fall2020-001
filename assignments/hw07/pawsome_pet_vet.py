@@ -49,9 +49,6 @@ to be seen by the vet), they should be asked for:
 2. the animal's type
 3. the urgency of the animal's issue
 
-If the animal's type is not allowed (use your function for vet.py!), print:
-"Sorry... we cannot accept a {animal}"
-
 If the number entered for urgency is not between 0 and 100 inclusive, 
 continually ask the user for a number until they enter a valid value.
 
