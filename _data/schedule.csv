@@ -324,16 +324,18 @@ Exceptions, File I/O and Data Formats
 * [Module 07 on Dictionaries](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module07.php)
 * Quiz 08 in NYU Classes (under Tests and Quizzes)
 * __Note the module and quiz number are different__",,,,
-y,,19,Nov-9,Mon,"
+,,19,Nov-9,Mon,"
 
-Exceptions, File I/O and Data Formats",Workshop,"Homework 8 __Due Sun, 11/15, at 11pm__
+Exceptions, File I/O and Data Formats",Workshop,"[Workshop Form](assignments/hw08/workshop08.html) (please submit this by the end of class)
 
-1. [nba.py](assignments/hw08/nba.py)
-  *  [stats-clean.txt](assignments/hw08/stats-clean.txt)
-2. [wordsy.py](assignments/hw08/wordsy.py)
+Homework 8 __Due Sun, 11/15, at 11pm__
+
+1. (workshop) [wordsy.py](assignments/hw08/wordsy.py)
   *  [enable1.txt](assignments/hw08/enable1.txt)
+2. [nba.py](assignments/hw08/nba.py)
+  *  [stats-clean.txt](assignments/hw08/stats-clean.txt)
 3. [battleship.py](assignments/hw08/battleship.py)",,,,
-y,,20,Nov-11,Wed,"Dictionaries and Counters
+,,20,Nov-11,Wed,"Dictionaries and Counters
 
 * [Dictionaries](slides/06/dictionaries.html)
 * [Counting with Various Data Types](slides/collections/counter.html)","* [Module #7: Dictionaries](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module07.php)
