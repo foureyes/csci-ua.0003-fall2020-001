@@ -356,11 +356,10 @@ Homework 9  __Due Sun, 11/22, at 11pm__
 2. [many_things.py](assignments/hw09/many_things.py)
 
 ",,,,
-y,,22,Nov-18,Wed,"Classes and Objects
+,,22,Nov-18,Wed,"Classes and Objects
 
 * [Object Oriented Programming](slides/oop/oop.html)
-","* [Module #9: Classes and Objects](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module09.php)
-* [Ch 26. OOP: The Big Picture](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch26.html#oop_colon_the_big_picture)
+","* [Ch 26. OOP: The Big Picture](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch26.html#oop_colon_the_big_picture)
 * [Ch 28. A More Realistic Example](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch28.html#a_more_realistic_example)
   * Step 1: Making Instances
   * Step 2: Adding Behavior Methods
