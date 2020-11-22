@@ -71,7 +71,7 @@ __Due Wed, Sep 9th, at 9am__
 * Quiz 02-A and Quiz 02-B in NYU Classes (under Tests and Quizzes)","* fstrings
 * % operator",,* fstrings,"* is using pycharm worth type annotations?
 * need to be more consistent with type annotations"
-,,3,Sep-14,Mon,"Types, Operators, Variables
+,workshop,3,Sep-14,Mon,"Types, Operators, Variables
 
 * Multiple Assignment
 * Formatting, Length (review)
@@ -114,7 +114,7 @@ Homework 1 __Due Sun, 9/20, at 11pm__
 * Quiz 03 in NYU Classes (under Tests and Quizzes)",,,,"* while loops AND if statements together may have been much
 * but definitely starts separating the class
 * again, wait until ds students?"
-,,5,Sep-21,Mon,"Boolean Logic, If and While, Modules",Workshop,"[Workshop Instructions and Form](assignments/hw02/workshop02.html) (please submit this by the end of class)
+,workshop,5,Sep-21,Mon,"Boolean Logic, If and While, Modules",Workshop,"[Workshop Instructions and Form](assignments/hw02/workshop02.html) (please submit this by the end of class)
 
 Homework 2 __Due Sun, 9/27, at 11pm__
 
@@ -142,7 +142,7 @@ Homework 2 __Due Sun, 9/27, at 11pm__
 * step over",,,"* most students were actually ok
 * ...but the ones that were very far off!
 * pycharm debugger is better than idle; need to get better at figuring out modes / switching from running one file to another"
-,,7,Sep-28,Mon,"Administrative
+,workshop,7,Sep-28,Mon,"Administrative
 
 [NYU Votes](https://www.nyu.edu/students/student-information-and-resources/nyu-votes.html)
 
@@ -221,7 +221,7 @@ y,,11,Oct-12,Mon,__Midterm #1__ ,,,,,,
 
 * [Module 06 on Lists, Sets, and Tuples](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module06.php)
 * Quiz 06 in NYU Classes (under Tests and Quizzes)",,,,
-,,13,Oct-19,Mon,Strings,Workshop,"
+,workshop,13,Oct-19,Mon,Strings,Workshop,"
 [Workshop Instructions and Form](assignments/hw05/workshop05.html) (please submit this by the end of class)
 
 Homework 5 __Due Sun, 10/25, at 11pm__
@@ -246,7 +246,7 @@ Homework 5 __Due Sun, 10/25, at 11pm__
   * Lists in Action
 * [Ch 9. Tuples, Files, and Everything Else](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch09.html#tuples_comma_files_comma_and_everything)
   * Tuples",,,,,
-,,15,Oct-26,Mon,"Lists, Tuples and Sets","Exam Results
+,workshop,15,Oct-26,Mon,"Lists, Tuples and Sets","Exam Results
 
 * extra credit assignment / exam weights may be shifted
 * discuss True/False and last 2 coding
@@ -324,7 +324,7 @@ Exceptions, File I/O and Data Formats
 * [Module 07 on Dictionaries](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module07.php)
 * Quiz 08 in NYU Classes (under Tests and Quizzes)
 * __Note the module and quiz number are different__",,,,
-,,19,Nov-9,Mon,"
+,workshop,19,Nov-9,Mon,"
 
 Exceptions, File I/O and Data Formats",Workshop,"[Workshop Form](assignments/hw08/workshop08.html) (please submit this by the end of class)
 
@@ -346,7 +346,7 @@ Homework 8 __Due Sun, 11/15, at 11pm__
 
 * [Module 09 on Classes and Objects](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module09.php)
 * Quiz 09 in NYU Classes (under Tests and Quizzes)",,,,
-,,21,Nov-16,Mon,Dictionaries and Counters,Workshop,"[Workshop Form](assignments/hw09/workshop09.html) (please submit this by the end of class)
+,workshop,21,Nov-16,Mon,Dictionaries and Counters,Workshop,"[Workshop Form](assignments/hw09/workshop09.html) (please submit this by the end of class)
 
 Homework 9  __Due Sun, 11/22, at 11pm__
 
@@ -366,34 +366,54 @@ Homework 9  __Due Sun, 11/22, at 11pm__
 * [Ch 29. Class Coding Details](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch29.html#class_coding_details)
   * The class Statement
   * Methods",,,,,
-y,,23,Nov-23,Mon,"More Classes and Objects, Recursion and Higher Order Functions
+,workshop,23,Nov-23,Mon,"Classes and Objects
 
-* Sub-classing (previous, class) 
+* Animation",Workshop,"__Due Wed, Nov 25th, at 9am__
+
+* [Module 10 on More OOP and Recursion](https://cs.nyu.edu/~jversoza/csci-ua.0003-fa19/module10.php)
+* Quiz 10 in NYU Classes (under Tests and Quizzes, to be posted Nov 23rd)
+
+Homework 10  __Due Sun, 11/29, at 11pm__
+
+[Instructions for HW10](assignments/hw10/calculator.html)
+
+* [animation.py](assignments/hw10/animation.py) 
+* [stack.py](assignments/hw10/stack.py) 
+* [test_stack.py](assignments/hw10/test_stack.py) 
+* [calculator.py](assignments/hw10/calculator.py) 
+* [test_calculator.py](assignments/hw10/test_calculator.py) 
+",,,,
+,,24,Nov-25,Wed,"More Classes and Objects, Recursion and Higher Order Functions 
+
+
+
+* Sub-classing continued (previous class)
+  * Extending Error
+  * Extending TestCase 
 * Other Magic Methods
   * iter
   * getitem
-* Higher Order Functions / [Decorators](slides/functional/decorators.html)
+* [Recursion](slides/04/recursion.html)
+* Higher Order Functions
   * functions as objects 
   * lambda
-  * ex: sorted
-* Animation","* [Ch 28. A More Realistic Example](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch28.html#a_more_realistic_example)
+  * ex: sorted","* [Ch 28. A More Realistic Example](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch28.html#a_more_realistic_example)
   * Step 3: Operator Overloading  
   * Step 4: Customizing Behavior by Subclassing
 * [Ch 29. Class Coding Details](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch29.html#class_coding_details)
   * Inheritance
 * [Ch 19. Advanced Function Topics](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch19.html#advanced_function_topics)
   * Recursion
-  * Function Objects: Attributes and Annotations – Indirect Function Calls","Homework 10  __Due Sun, 11/29, at 11pm__
+  * Function Objects: Attributes and Annotations – Indirect Function Calls",,,,,
+y,workshop,25,Nov-30,Mon,"More Classes and Objects, Recursion and Higher Order Functions ",,"Homework 11 __Due Sun, 12/6, at 11pm__
 
-[Instructions for HW10, Midterm Extra Credit](assignments/hw10/calculator.html)
-
-* [stack.py](assignments/hw10/stack.py) 
-* [test_stack.py](assignments/hw10/test_stack.py) 
-* [calculator.py](assignments/hw10/calculator.py) 
-* [test_calculator.py](assignments/hw10/test_calculator.py) 
-* [animation.py](assignments/hw10/animation.py) ",,,,
-y,,24,Nov-25,Wed,"More Classes and Objects, Recursion and Higher Order Functions ",,,,,,
-y,,25,Nov-30,Mon,Iterators and Generators,,"Homework 11 __Due Sun, 12/6, at 11pm__",,,,
+* [alphabet.py](assignments/hw11/alphabet.py)
+* [test_alphabet.py](assignments/hw11/test_alphabet.py)
+* [draw_recursive.py](assignments/hw11/draw_recursive.py)
+* [remove_nest.py](assignments/hw11/remove_nest.py)
+* [test_remove_nest.py](assignments/hw11/test_remove_nest.py)
+* [hoffy.py](assignments/hw11/hoffy.py)
+* [test_hoffy.py](assignments/hw11/test_hoffy.py)",,,,
 y,,26,Dec-2,Wed,"Libraries
 
 * [Image Processing](slides/13/images.html)
