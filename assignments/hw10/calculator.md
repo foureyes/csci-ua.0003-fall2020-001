@@ -5,7 +5,9 @@ title: calculator.py
 <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 
-# Stack, RPN Calculator, and Animation (Homework and Extra Credit for Midterm\*)
+# Stack, RPN Calculator {% comment %}, and Animation  {% endcomment %}
+
+{% comment %}(Homework and Extra Credit for Midterm\*) {% endcomment %}
 
 
 <pre><code data-trim contenteditable>   ____________________
@@ -24,7 +26,7 @@ title: calculator.py
 </code></pre>
 {%comment%}_ {%endcomment%}
 
-\* additional 4 points to lower scoring midterm 
+{% comment %}\* additional 4 points to lower scoring midterm {% endcomment %}
 
 ### Overview
 
@@ -32,11 +34,18 @@ Create a class, `RPNCalculator`, that can evaluate a [reverse polish notation (p
 
 ### Setup
 
+Create 2 Classes
+
+{% comment %}
 Create 4+ classes: 
+{% endcomment %}
 
 1. <code>Stack</code> in `stack.py`  (homework)
 2. <code>RPNCalculator</code> in `calculator.py` (homework)
-3. two classes of _your choice_ in <code>animation.py</code> (extra credit)
+
+{% comment %}
+3. two classes of _your choice_ in <code>animation.py</code> {% comment %}(extra credit) {% endcomment %}
+{% endcomment %}
 
 
 ### ⚠️ Submission / Scoring
@@ -48,7 +57,11 @@ Create 4+ classes:
 	2. upload `animation.py` to Extra Credit
 {% endcomment %}
 
-### Part 1: Stack Class (Homework)
+### Part 1: Stack Class 
+
+{% comment %}
+(Homework)
+{% endcomment %}
 
 __Create a class, `Stack` that represents a [data structure called a stack](http://en.wikipedia.org/wiki/Stack_%28abstract_data_type%29)__
 
@@ -76,7 +89,7 @@ __Create a class, `Stack` that represents a [data structure called a stack](http
 |1|
  ‾ 
 ``` 
-		* ⚠️ note that the character on the bottom of the stack is `‾` (&larr; copy and paste this into your text editor)
+		* ⚠️ note that the character on the bottom of the stack is `‾` (&larr; __copy and paste__ this into your text editor)
 	* example usage of the `Stack` class:
 		<pre><code data-trim contenteditable># create a new stack
 s = Stack()
@@ -105,7 +118,7 @@ __Testing your code__
 
 1. ⚠️  Make sure to name your classes and methods exactly as they appear in the instructions above
 2. `stack.py` has some example code that prints out stack usage
-3. Once your satisifed with your implementation, run `test_stack.py` to run automated tests (you can view the code in `test_stack.py` to see what features of your class are being tested
+3. Once your satisfied with your implementation, run `test_stack.py` to run automated tests (you can view the code in `test_stack.py` to see what features of your class are being tested
 	* note that in some editors, like PyCharm, this may show up as `Run Unittests in...`
 4. For simplicity, grading will be based solely on these automated tests
 5. If your class fulfills the requirements, you should get output similar to this:
@@ -190,8 +203,22 @@ Process finished with exit code 0
 </code></pre>
 6. An exception will occur if any of the tests fail
 
-### Part 3: Animation(Extra Credit)
+{% comment %}
+### Part 3: Animation (Extra Credit)
 
+1. create at least two classes representing a drawing in turtle
+	* for example a, `Tree` class... or a `Car` class  with x and y coordinates, a color attribute, a size attribute, etc.
+	* ...and some methods, such as a `move` to change coordinates or `draw` ... so that it can draw itself on screen as a triangle on top of rectangle
+	* the classes can have similar attributes and / or methods
+	* one class can inherit from another class
+2. create multiple instances of each class 
+	* at least two for each)
+	* each instance should be used to inform what is drawn on screen 
+	* for example, two instances of a `Planet` class would result in two planets drawn on screen (using the instance's attributes to influence the drawing in _some_ way)
+4. (optional) using [these slides](../../slides/turtle/turtle-more.html#48), incorporate animation into your project... moving at least one of your drawings in some way
+{% endcomment %}
+
+{% comment %}
 Up to 4 points extra credit on lower scoring midterm.
 
 1. (+2) create at least two classes representing a drawing in turtle
@@ -205,3 +232,4 @@ Up to 4 points extra credit on lower scoring midterm.
 	* for example, two instances of a `Planet` class would result in two planets drawn on screen (hopefully using the instance's attributes to influence the drawing in _some_ way
 4. (+1) finally, using [these slides](../../slides/turtle/turtle-more.html#48), incorporate animation into your project... at least one of your drawings should move in some way
 
+{% endcomment %}
