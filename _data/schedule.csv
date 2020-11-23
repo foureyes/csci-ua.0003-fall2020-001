@@ -368,9 +368,7 @@ Homework 9  __Due Sun, 11/22, at 11pm__
   * Methods",,,,,
 ,workshop,23,Nov-23,Mon,"Classes and Objects
 
-* Animation",Workshop,"<!--
-
-[Workshop Form](assignments/hw10/workshop10.html) (please submit this by the end of class)
+* Animation",Workshop,"[Workshop Form](assignments/hw10/workshop10.html) (please submit this by the end of class)
 
 Homework 10  __Due Tue, 12/1, at 11pm__
 
@@ -381,7 +379,7 @@ Homework 10  __Due Tue, 12/1, at 11pm__
 * [test_stack.py](assignments/hw10/test_stack.py) 
 * [calculator.py](assignments/hw10/calculator.py) 
 * [test_calculator.py](assignments/hw10/test_calculator.py)
--->
+
 <!--
 * [animation.py](assignments/hw10/animation.py) 
 -->
