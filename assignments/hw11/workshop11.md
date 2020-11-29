@@ -10,7 +10,7 @@ form: "https://forms.gle/zqdEMFknAMFjSguv5"
 
 ## Overview
 
-⚠️ __Every group member must submit their own form, though the code may be the similar for `{{page.file}}` and `{{page.file_2}}`__ 
+⚠️ __Every group member must submit their own form, though the code may be the similar for `{{page.file}}`__
 
 ## Instructions
 
