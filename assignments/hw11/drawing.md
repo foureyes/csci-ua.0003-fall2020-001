@@ -211,6 +211,11 @@ __Add a test__ in `test_alpharange` that determines whether or not `__str__` has
 
 In `recursive.py`, write a recursive function `count_nested_tuple` that counts the total number of all elements in a tuple. If there are tuples nested within the original tuple, count each element within the inner tuple as a separate and discrete element. For example, `(1, (2, 3), 4)` should result in a count of 4 (despite having a nested tuple containing two elements.
 
+__HINTS__: 
+
+* to determine if a value is a `tuple`, you can use: `if type(val) is tuple:`
+* to create an empty tuple: `tuple()`
+
 Here's how the function may work:
 
 ```
