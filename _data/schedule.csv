@@ -411,15 +411,18 @@ __Due Wed, Nov 25th, at 9am__
 * [Ch 19. Advanced Function Topics](https://learning-oreilly-com.proxy.library.nyu.edu/library/view/learning-python-5th/9781449355722/ch19.html#advanced_function_topics)
   * Recursion
   * Function Objects: Attributes and Annotations – Indirect Function Calls",,,,,
-y,workshop,25,Nov-30,Mon,"More Classes and Objects, Recursion and Higher Order Functions ",,"Homework 11 __Due Sun, 12/6, at 11pm__
+,workshop,25,Nov-30,Mon,"More Classes and Objects, Recursion and Higher Order Functions ",,"[Workshop Form](assignments/hw11/workshop11.html) (please submit this by the end of class)
 
-* [alphabet.py](assignments/hw11/alphabet.py)
-* [test_alphabet.py](assignments/hw11/test_alphabet.py)
-* [draw_recursive.py](assignments/hw11/draw_recursive.py)
-* [remove_nest.py](assignments/hw11/remove_nest.py)
-* [test_remove_nest.py](assignments/hw11/test_remove_nest.py)
-* [hoffy.py](assignments/hw11/hoffy.py)
-* [test_hoffy.py](assignments/hw11/test_hoffy.py)",,,,
+Homework 11 __Due Sun, 12/6, at 11pm__
+
+[Instructions for HW11](assignments/hw11/drawing.html)
+
+* [drawing.py](assignments/hw11/drawing.py)
+* [alpharange.py](assignments/hw11/alpharange.py)
+* [test_alpharange.py](assignments/hw11/test_alpharange.py)
+* [recursive.py](assignments/hw11/recursive.py)
+* [test_recursive.py](assignments/hw11/test_recursive.py)
+",,,,
 y,,26,Dec-2,Wed,"Libraries
 
 * [Image Processing](slides/13/images.html)
