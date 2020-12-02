@@ -46,6 +46,8 @@ Again, check out the video below.
 
 ### A reallllly long video with no sound and a lot of pauses (YES!)
 
+[Direct link to video](resources/video/pycharm-virtualenv.mp4), or play the embedded video below...
+
 <video controls>
     <source src="resources/video/pycharm-virtualenv.webm" type="video/webm">
     <source src="resources/video/pycharm-virtualenv.mp4" type="video/mp4">
