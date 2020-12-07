@@ -430,7 +430,7 @@ Homework 11 __Due Sun, 12/6, at 11pm__
 * [matplotlib part 1](slides/viz/matplotlib.html)
 * [matplotlib part 2](slides/viz/matplotlib-extras.html)
 * [demo with temperature data](https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt)
-* demo character frequency visualization: [enc.txt](data/enc.txt] and  [http://letterfrequency.org/](http://letterfrequency.org/)                                                          
+* demo character frequency visualization: [enc.txt](data/enc.txt) and  [http://letterfrequency.org/](http://letterfrequency.org/)                                                          
 
 ",,,,,,
 ,,27,Dec-7,Mon,"Libraries
