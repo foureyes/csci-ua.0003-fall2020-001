@@ -83,9 +83,22 @@ When you're ready to ask a question simply click the "New Thread" button and sel
   <div class="col-md-6">
     <div class="panel panel-default">
 <a name="description"></a>
-<div class="panel-heading">Course Description</div>
+<div class="panel-heading">Course Description and Topics</div>
 <div class="panel-body" markdown="block">
-This course introduces fundamentals of computer programming, object-oriented programming, recursion, and other important programming concepts to students who already have had some exposure to programming in the context of building applications using Python. Students will design and implement Python programs in a variety of applied areas.
+This course introduces fundamentals of computer programming, object-oriented programming, recursion, and other important programming concepts to students who already have had some exposure to programming in the context of building applications using Python. Students will design and implement Python programs in a variety of applied areas. The topics covered include:
+  
+* Python Basics
+* Conditionals, While Loops
+* Debugger, For Loops
+* Functions, Scope, Modules
+* Strings, Sequences, Slicing
+* Lists, Tuples, Sets
+* Dictionaries, Counters
+* Exceptions, File I/O
+* Classes and Objects
+* Interfaces and Protocols
+* Inheritance, Automated Testing
+* Recursion
 
 </div>
     </div>
